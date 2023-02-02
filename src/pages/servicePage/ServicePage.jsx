@@ -1,6 +1,9 @@
 import React from 'react'
 import './ServicePage.css'
 import build from '../../assets/building-construction.png'
+import road from '../../assets/road-construction.jpg'
+import maintain from '../../assets/maintenance.png'
+import supply from '../../assets/supply.png'
 
 
 function ServicePage() {
@@ -18,7 +21,7 @@ function ServicePage() {
                 <div className="grand-Servicecards">
                     <img src={build} alt="building" />
                 </div>
-                {/* <div className="grand-Servicecards">
+                <div className="grand-Servicecards">
                     <img src={road} alt="civil" />
                 </div>
                 <div className="grand-Servicecards">
@@ -26,7 +29,7 @@ function ServicePage() {
                 </div>
                 <div className="grand-Servicecards">
                     <img src={supply} alt="supplies" />
-                </div> */}
+                </div>
             </div>
             <p className='grand-Servicelearn'>
                 <a href="#">Learn More</a>
