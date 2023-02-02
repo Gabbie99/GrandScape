@@ -1,11 +1,54 @@
 .grand-AboutContainer {
-    background-image: url(../../../public/assets/ab);
+    background-image: url(../../../public/assets/constructframe.avif);
+    /* background-color: white; */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 50px;
+    margin: 0;
+}
+.grand-Aboutsection {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
 }
 .grand-Abouttext {
-    width: 70%;
+    width: 80%;
     margin: auto;
-
+    color: beige;
+    background-color: rgba(0, 0, 0, .8);
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    line-height: 30px;
+    padding-bottom: 2px;
 }
 .grand-Abouthead {
     text-align: center;
+    margin: 0 auto 30px auto;
+    padding: 20px 0 10px 0;
+    font-size: 40px;
+    font-weight: 500;
+}
+.grand-Aboutspan {
+    color: rgba(53, 146, 252, 0.979);
+    font-weight: 700;
+}
+.grand-Aboutarticle {
+    padding: 0 30px;
+}
+.grand-AboutRead {
+    /* padding: 30px 0 15px 0; */
+    text-align: center;
+    background: rgb(7, 7, 7);
+    /* background-color: black; */
+    width: 20%;
+    margin: 3% auto;
+}
+.grand-AboutRead:hover{
+    background: rgb(4,88,41);
+    background: linear-gradient(132deg, rgba(4,88,41,1) 26%, rgba(9,85,42,1) 42%, rgba(11,47,69,1) 68%, rgba(8,54,80,1) 100%);
+    cursor: pointer;
+}
+a{
+    color: beige;
+    text-decoration: none;
 }

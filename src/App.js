@@ -1,6 +1,7 @@
 import './App.css';
 import AboutPage from './pages/aboutPage/AboutPage';
 import HomePage from './pages/homePage/HomePage';
+import ServicePage from './pages/servicePage/ServicePage';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <HomePage/>
       <AboutPage/>
+      <ServicePage/>
     </div>
   );
 }
