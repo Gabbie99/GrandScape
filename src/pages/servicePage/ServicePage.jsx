@@ -1,5 +1,7 @@
 import React from 'react'
 import './ServicePage.css'
+import build from '../../assets/building-construction.png'
+
 
 function ServicePage() {
   return (
@@ -14,14 +16,17 @@ function ServicePage() {
         </div>
         <div className="grand-Servicecardswrap">
                 <div className="grand-Servicecards">
-                    <img src="" alt="" />
+                    <img src={build} alt="building" />
+                </div>
+                {/* <div className="grand-Servicecards">
+                    <img src={road} alt="civil" />
                 </div>
                 <div className="grand-Servicecards">
-                    <img src="" alt="" />
+                    <img src={maintain} alt="maintainance" />
                 </div>
                 <div className="grand-Servicecards">
-                    <img src="" alt="" />
-                </div>
+                    <img src={supply} alt="supplies" />
+                </div> */}
             </div>
             <p className='grand-Servicelearn'>
                 <a href="#">Learn More</a>
