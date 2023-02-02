@@ -10,7 +10,9 @@ function ServicePage() {
             <p className='grand-Servicepara'>
             From conception to completion, our entire team management and experienced executives at <span className='grand-Servicespan'>GRANDSCAPE RESIDENCE'S LIMITED</span>  make our clients' needs and satisfaction a priority. We have experience in a wide variety of projects and delivery methods, and use both time-proven practices and cutting-edge techniques to make sure our customers projects meet their maximum potential.
             </p>
-            <div className="grand-Servicecardswrap">
+            
+        </div>
+        <div className="grand-Servicecardswrap">
                 <div className="grand-Servicecards">
                     <img src="" alt="" />
                 </div>
@@ -24,7 +26,6 @@ function ServicePage() {
             <p className='grand-Servicelearn'>
                 <a href="#">Learn More</a>
             </p>
-        </div>
       </div>
     </div>
   )
