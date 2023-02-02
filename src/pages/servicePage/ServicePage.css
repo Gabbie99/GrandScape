@@ -1,8 +1,24 @@
+.grand-Servicetext {
+    width: 50%;
+    margin: auto;
+}
+.grand-Servicehead {
+    text-align: center;
+    font-weight: 100;
+    font-size: 50px;
+}
+.grand-Servicepara {
+    line-height: 35px;
+}
+.grand-Servicespan {
+    color: rgba(53, 146, 252, 0.979);
+    font-weight: 700;
+}
 .grand-Servicelearn {
     background: rgb(4,88,41);
     background: linear-gradient(132deg, rgba(4,88,41,1) 26%, rgba(9,85,42,1) 42%, rgba(11,47,69,1) 68%, rgba(8,54,80,1) 100%);
     padding: 8px;
-    width: 10%;
+    width: 20%;
     margin: auto;
     text-align: center;
 }
@@ -18,5 +34,4 @@
 }
 .grand-Servicelearn a:hover {
     color: beige;
-
 }
