@@ -1,0 +1,13 @@
+.grand-NavContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    color: beige;
+}
+.grand-ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}

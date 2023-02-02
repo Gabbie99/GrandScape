@@ -1,0 +1,11 @@
+.grand-AboutContainer {
+    background-image: url(../../../public/assets/ab);
+}
+.grand-Abouttext {
+    width: 70%;
+    margin: auto;
+
+}
+.grand-Abouthead {
+    text-align: center;
+}
