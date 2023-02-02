@@ -10,8 +10,8 @@ function ServicePage() {
             <p>
             From conception to completion, our entire team management and experienced executives at <span className='grand-Servicespan'>GRANDSCAPE RESIDENCE'S LIMITED</span>  make our clients' needs and satisfaction a priority. We have experience in a wide variety of projects and delivery methods, and use both time-proven practices and cutting-edge techniques to make sure our customers projects meet their maximum potential.
             </p>
-            <p>
-                <a href="#">Learn More &rarr;</a>
+            <p className='grand-Servicelearn'>
+                <a href="#">Learn More</a>
             </p>
         </div>
       </div>

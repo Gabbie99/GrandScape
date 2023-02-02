@@ -38,17 +38,18 @@
 .grand-AboutRead {
     /* padding: 30px 0 15px 0; */
     text-align: center;
-    background: rgb(7, 7, 7);
     /* background-color: black; */
     width: 20%;
+    background: rgb(4,88,41);
+    background: linear-gradient(132deg, rgba(4,88,41,1) 26%, rgba(9,85,42,1) 42%, rgba(11,47,69,1) 68%, rgba(8,54,80,1) 100%);
     margin: 3% auto;
 }
 .grand-AboutRead:hover{
-    background: rgb(4,88,41);
-    background: linear-gradient(132deg, rgba(4,88,41,1) 26%, rgba(9,85,42,1) 42%, rgba(11,47,69,1) 68%, rgba(8,54,80,1) 100%);
+    background: transparent;
+    border: 1px solid green;
     cursor: pointer;
 }
-a{
+.grand-AboutRead a{
     color: beige;
     text-decoration: none;
 }

@@ -1,0 +1,22 @@
+.grand-Servicelearn {
+    background: rgb(4,88,41);
+    background: linear-gradient(132deg, rgba(4,88,41,1) 26%, rgba(9,85,42,1) 42%, rgba(11,47,69,1) 68%, rgba(8,54,80,1) 100%);
+    padding: 8px;
+    width: 10%;
+    margin: auto;
+    text-align: center;
+}
+.grand-Servicelearn:hover {
+    background: black;
+    /* border: 1px solid green; */
+    cursor: pointer;
+    color: beige;
+}
+.grand-Servicelearn a {
+    color: beige;
+    text-decoration: none;
+}
+.grand-Servicelearn a:hover {
+    color: beige;
+
+}
