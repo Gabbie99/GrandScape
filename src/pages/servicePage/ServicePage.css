@@ -121,7 +121,9 @@ padding-bottom: 50px;
         width: 23%;
         font-size: small;
     }
-    
+    .grand-Servicesee a{
+        font-size: 13px;
+    }
     .grand-Workspic img{
         width: 100%;
     }
