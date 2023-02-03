@@ -1,5 +1,6 @@
 import React from 'react'
 import './ServicePage.css'
+import Footer from '../../components/footer/Footer'
 import build from '../../assets/building-construction.png'
 import road from '../../assets/road-construction.jpg'
 import maintain from '../../assets/maintenance.png'
@@ -67,12 +68,13 @@ function ServicePage() {
       <div className="grand-Servicetext">
         <h1 className="grands-callhead">Contact Us</h1>
         <p id='pee'>
-            We'd be glad to discuss your upcoming Projects and have us work with you.
+            We'd be glad to discuss your upcoming Projects to help you fulfill your dreams!
         </p>
         <p className='grand-Servicetouch'>
             <a href="#">Get in touch</a>
         </p>
       </div>
+      <Footer/>
     </div>
   )
 }
