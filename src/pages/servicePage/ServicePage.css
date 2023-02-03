@@ -69,3 +69,22 @@
 padding-bottom: 50px;
 
 }
+.grands-callhead {
+    font-weight: 100;
+    font-size: 50px;
+    padding: 20px 0 0 0;
+}
+#pee {
+    margin-bottom: 50px;
+}
+.grand-Servicetouch {
+    width: 20%;
+    padding: 8px;
+    /* margin: 30px auto; */
+    text-align: center;
+    background: black;
+}
+.grand-Servicetouch a{
+    color: beige;
+    text-decoration: none;
+}

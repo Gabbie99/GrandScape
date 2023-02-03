@@ -64,6 +64,15 @@ function ServicePage() {
             </div>
         </article>
       </div><hr id='grand-hr'/>
+      <div className="grand-Servicetext">
+        <h1 className="grands-callhead">Contact Us</h1>
+        <p id='pee'>
+            We'd be glad to discuss your upcoming Projects and have us work with you.
+        </p>
+        <p className='grand-Servicetouch'>
+            <a href="#">Get in touch</a>
+        </p>
+      </div>
     </div>
   )
 }
