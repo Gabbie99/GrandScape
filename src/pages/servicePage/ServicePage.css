@@ -127,4 +127,17 @@ padding-bottom: 50px;
     .grand-Workspic img{
         width: 100%;
     }
+    .grands-callhead {
+        font-size: 30px;
+        margin: 30px 0 20px 0;
+    }
+    #pee {
+        font-size: 14px;
+    }
+    .grand-Servicetouch {
+        width: 30%;
+    }
+    .grand-Servicetouch a{
+        font-size: 13px;
+    }
 }
