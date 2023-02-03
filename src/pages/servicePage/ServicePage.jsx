@@ -4,6 +4,7 @@ import build from '../../assets/building-construction.png'
 import road from '../../assets/road-construction.jpg'
 import maintain from '../../assets/maintenance.png'
 import supply from '../../assets/supply.png'
+import home from '../../assets/haverschool.jpg'
 
 
 function ServicePage() {
@@ -20,21 +21,49 @@ function ServicePage() {
         <div className="grand-Servicecardswrap">
                 <div className="grand-Servicecards">
                     <img src={build} alt="building" />
+                    <p>
+                        Building Construction
+                    </p>
                 </div>
                 <div className="grand-Servicecards">
                     <img src={road} alt="civil" />
+                    <p>
+                        Civil Engineering
+                    </p>
                 </div>
                 <div className="grand-Servicecards">
                     <img src={maintain} alt="maintainance" />
+                    <p>
+                     Maintenance
+                    </p>
                 </div>
                 <div className="grand-Servicecards">
                     <img src={supply} alt="supplies" />
+                    <p>
+                        Supplies & Services
+                    </p>
                 </div>
             </div>
             <p className='grand-Servicelearn'>
                 <a href="#">Learn More</a>
             </p>
       </div>
+      <div className="grand-Servicetext">
+        <div className="grand-Workspic">
+            <img src={home} alt="home" />
+        </div>
+        <h1 className='grand-Servicehead'>We Take Pride <br/>In Projects We've Built</h1>
+        <article>
+            <div>
+                <p className='grand-Servicepara'>
+                While our clients' satisfaction is our primary metric for excellence, we have also been recognized with awards over the years for safety, business practices, and design excellence. We are proud to be at the forefront of profound building practices. We understand that projects represent not only buildings, but the plans for the future of our clients
+                </p>
+                <p className='grand-Servicesee'>
+                <a href="#">See Our Latest Projects</a>
+            </p>
+            </div>
+        </article>
+      </div><hr id='grand-hr'/>
     </div>
   )
 }
