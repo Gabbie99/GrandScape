@@ -28,6 +28,7 @@ function Footer() {
         <div className="grand-footercopy">
             <p>&copy; 2023 Grandcsape Residence's Limited. All Rights Reserved</p>
             <CaretUp size={32} weight="thin" />
+            <p>Scroll up</p>
         </div>
       </div>
     </div>

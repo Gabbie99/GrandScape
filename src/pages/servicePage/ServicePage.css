@@ -67,7 +67,9 @@
 }
 .grand-Servicesee {
 padding-bottom: 50px;
-
+}
+.grand-Workspic {
+    object-fit: contain;
 }
 .grands-callhead {
     font-weight: 100;
