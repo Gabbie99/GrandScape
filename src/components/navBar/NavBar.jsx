@@ -1,12 +1,12 @@
 import React from 'react'
-import Hamburger from '../../hamBurger/Hamburger'
 import './NavBar.css'
+import Hamburger from '.././hamBurger/Hamburger'
 
 function NavBar() {
   return (
     <div className='grand-NavContainer'>
       <div className="grand-Logo">
-        <h1>GrandScape</h1>
+        <h1 className='grand-Navhead'>GrandScape</h1>
       </div>
       <div className="grand-Linklist">
         <ul className='grand-ul'>

@@ -53,10 +53,11 @@
         position: absolute;
         width: 100px;
         margin: -70px 100px 0px -103px;
-        padding: 30px 90px;
+        padding: 50px 90px;
         color: white;
         padding-top: 100px;
         background: #283C61;
+        border-bottom-left-radius: 100%;
         list-style-type: none;
         -webkit-font-smoothing: antialiased;
         /* to stop flickering of text in safari */
@@ -67,7 +68,7 @@
 
     .hamburger li{
         padding: 5px 0;
-        font-size: 15px;
+        font-size: 13px;
         color: white;
     }
     .hamburger li:hover{

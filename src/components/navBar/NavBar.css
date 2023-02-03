@@ -23,4 +23,8 @@
     .grand-hamburger {
         display: block;
     }
+    .grand-Navhead {
+        font-weight: 400;
+        font-size: 25px;
+    }
 }
