@@ -23,7 +23,7 @@
     margin: 40px 0;
 }
 .grand-Servicecards {
-    /* border: 1px solid blue; */
+    text-align: center;
     padding: 18px;
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
@@ -90,4 +90,39 @@ padding-bottom: 50px;
 .grand-Servicetouch a{
     color: beige;
     text-decoration: none;
+}
+
+@media screen and (max-width:450px) {
+    .grand-Servicetext {
+        width: 80%;
+        margin: auto;
+    }
+    .grand-Servicehead {
+        font-size: 30px;
+    }
+    .grand-Servicepara {
+        font-size: 15px;
+    }
+    .grand-Servicecardswrap {
+        display: grid;
+    }
+    .grand-Servicecards {
+        text-align: center;
+    }
+    .grand-Servicecards img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover; 
+    }
+    .grand-Servicecards p{
+        font-size: 15px;
+    }
+    .grand-Servicelearn {
+        width: 23%;
+        font-size: small;
+    }
+    
+    .grand-Workspic img{
+        width: 100%;
+    }
 }

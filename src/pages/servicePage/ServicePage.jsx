@@ -47,7 +47,7 @@ function ServicePage() {
             </div>
             <p className='grand-Servicelearn'>
                 <a href="#">Learn More</a>
-            </p>
+            </p> 
       </div>
       <div className="grand-Servicetext">
         <div className="grand-Workspic">

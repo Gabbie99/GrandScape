@@ -3,7 +3,7 @@
     /* background-color: white; */
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh;  */
     padding-top: 50px;
     margin: 0;
 }
@@ -52,4 +52,28 @@
 .grand-AboutRead a{
     color: beige;
     text-decoration: none;
+}
+
+@media screen and (max-width:450px) {
+    .grand-Abouttext {
+        width: 100%;
+        color: beige;
+        background-color: rgba(0, 0, 0, .8);
+        box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+        line-height: 25px;
+        padding-bottom: 2px;
+    }
+    .grand-Abouthead {
+        text-align: center;
+        margin: 0 auto 20px auto;
+        padding: 20px 0 10px 0;
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .grand-AboutRead {
+        width: 40%;
+    }
+    .grand-Aboutarticle {
+        font-size: 15px;
+    }
 }
