@@ -13,9 +13,10 @@ function Hamburger() {
                 <ul className='hamburger'>
                   <a href='#'><li>Home</li></a> 
                   <a href='#about'><li>About</li></a>                  
-                  <a href='#product'><li>Product</li></a>
-                  <a href='#news'><li>Updates</li></a>
-                  <a href='#contact'><li>Say Hi</li></a>  
+                  <a href='#product'><li>Services</li></a>
+                  <a href='#news'><li>Projects</li></a>
+                  <a href='#contact'><li>Testimonials</li></a>  
+                  <a href='#contact'><li>Contact</li></a>  
                 </ul>
         </div>
     </div>

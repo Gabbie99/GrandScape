@@ -5,9 +5,22 @@
     margin: auto;
     align-items: center;
     color: beige;
+    padding-top: 30px;
 }
 .grand-ul {
     display: flex;
     gap: 50px;
     list-style: none;
+}
+.grand-hamburger {
+    display: none;
+}
+
+@media screen and (max-width:450px) {
+    .grand-ul {
+        display: none;
+    }
+    .grand-hamburger {
+        display: block;
+    }
 }

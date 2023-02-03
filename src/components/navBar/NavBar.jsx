@@ -1,4 +1,5 @@
 import React from 'react'
+import Hamburger from '../../hamBurger/Hamburger'
 import './NavBar.css'
 
 function NavBar() {
@@ -16,6 +17,9 @@ function NavBar() {
           <div className="grand-li">Testimonials</div>
           <div className="grand-li">Contact</div>
         </ul>
+      </div>
+      <div className="grand-hamburger">
+        <Hamburger/>
       </div>
     </div>
   )
