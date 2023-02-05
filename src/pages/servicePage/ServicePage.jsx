@@ -6,6 +6,7 @@ import road from '../../assets/road-construction.jpg'
 import maintain from '../../assets/maintenance.png'
 import supply from '../../assets/supply.png'
 import home from '../../assets/haverschool.jpg'
+import {Link} from 'react-router-dom'
 
 
 function ServicePage() {
@@ -46,7 +47,7 @@ function ServicePage() {
                 </div>
             </div>
             <p className='grand-Servicelearn'>
-                <a href="#">Learn More</a>
+                <Link to='/services'>Learn More</Link>
             </p> 
       </div>
       <div className="grand-Servicetext">
@@ -60,7 +61,7 @@ function ServicePage() {
                 While our clients' satisfaction is our primary metric for excellence, we have also been recognized with awards over the years for safety, business practices, and design excellence. We are proud to be at the forefront of profound building practices. We understand that projects represent not only buildings, but the plans for the future of our clients
                 </p>
                 <p className='grand-Servicesee'>
-                <a href="#">See Our Latest Projects</a>
+                <Link to='/projects'>See Our Latest Projects</Link>
             </p>
             </div>
         </article>
@@ -68,10 +69,10 @@ function ServicePage() {
       <div className="grand-Servicetext">
         <h1 className="grands-callhead">Contact Us</h1>
         <p id='pee'>
-            We'd be glad to discuss your upcoming Projects to help you fulfill your dreams!
+            We'd be glad to discuss your upcoming Projects and help you fulfill your dreams!
         </p>
         <p className='grand-Servicetouch'>
-            <a href="#">Get in touch</a>
+            <Link to='/contact'>Get in touch</Link>
         </p>
       </div>
       <Footer/>

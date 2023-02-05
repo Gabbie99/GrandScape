@@ -12,6 +12,10 @@
     gap: 50px;
     list-style: none;
 }
+.grand-li {
+    color: beige;
+    text-decoration: none;
+}
 .grand-hamburger {
     display: none;
 }

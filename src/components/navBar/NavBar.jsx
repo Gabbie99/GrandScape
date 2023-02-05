@@ -1,6 +1,7 @@
 import React from 'react'
 import './NavBar.css'
 import Hamburger from '.././hamBurger/Hamburger'
+import {Link} from 'react-router-dom'
 
 function NavBar() {
   return (
@@ -10,12 +11,12 @@ function NavBar() {
       </div>
       <div className="grand-Linklist">
         <ul className='grand-ul'>
-          <div className="grand-li">Home</div>
-          <div className="grand-li">About</div>
-          <div className="grand-li">Services</div>
-          <div className="grand-li">Projects</div>
-          <div className="grand-li">Testimonials</div>
-          <div className="grand-li">Contact</div>
+          <Link to='/' className="grand-li"><div>Home</div></Link>
+          <Link to='/about' className="grand-li"><div>About</div></Link>
+          <Link to='/services' className="grand-li"><div>Services</div></Link>
+          <Link to='/projects' className="grand-li"><div>Projects</div></Link>
+          <Link to='/testimonials' className="grand-li"><div>Testimonials</div></Link>
+          <Link to='/contact' className="grand-li"><div>Contact</div></Link>
         </ul>
       </div>
       <div className="grand-hamburger">
