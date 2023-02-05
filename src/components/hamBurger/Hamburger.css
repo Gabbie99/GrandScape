@@ -72,7 +72,7 @@
         color: white;
     }
     .hamburger li:hover{
-        color:#ab7e5f;
+        color:rgb(16, 253, 16);
     }
     .res-inp:checked ~ .hamburger{
         transform: none;

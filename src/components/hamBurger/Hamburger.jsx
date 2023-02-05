@@ -1,5 +1,6 @@
 import React from 'react'
 import './Hamburger.css' 
+import { Link } from 'react-router-dom'
 
 function Hamburger() {
   return (
@@ -11,12 +12,12 @@ function Hamburger() {
                 <span className='ham-span'></span>
                 {/* <List size={50} /> */}
                 <ul className='hamburger'>
-                  <a href='#'><li>Home</li></a> 
-                  <a href='#about'><li>About</li></a>                  
-                  <a href='#product'><li>Services</li></a>
-                  <a href='#news'><li>Projects</li></a>
-                  <a href='#contact'><li>Testimonials</li></a>  
-                  <a href='#contact'><li>Contact</li></a>  
+                  <Link to='/' className='ham-li'><li>Home</li></Link> 
+                  <Link to='/about' className='ham-li'><li>About</li></Link>                  
+                  <Link to='/services' className='ham-li'><li>Services</li></Link>
+                  <Link to='/projects' className='ham-li'><li>Projects</li></Link>
+                  <Link to='/testimonials' className='ham-li'><li>Testimonials</li></Link>  
+                  <Link to='/contact' className='ham-li'><li>Contact</li></Link>  
                 </ul>
         </div>
     </div>

@@ -16,6 +16,9 @@
     color: beige;
     text-decoration: none;
 }
+.grand-li:hover {
+    color: rgb(6, 253, 6);
+}
 .grand-hamburger {
     display: none;
 }
