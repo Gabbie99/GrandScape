@@ -1,4 +1,4 @@
-@media screen and (max-width:450px){
+@media screen and (max-width:500px){
 
     .res-inp{
         display: block;
@@ -52,8 +52,8 @@
         
         position: absolute;
         width: 100px;
-        margin: -70px 100px 0px -369px;
-        padding: 50px 223px;
+        margin: -70px 100px 0px -414px;
+        padding: 50px 249px;
         color: white;
         padding-top: 90px;
         background: #283C61;

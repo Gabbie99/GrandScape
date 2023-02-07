@@ -41,8 +41,9 @@
 .grand-AboutRead {
     /* padding: 30px 0 15px 0; */
     text-align: center;
-    background-color: black;
+    background-color: rgb(13, 68, 13);
     width: 17%;
+    padding: 7px;
     color: beige;
     margin: 3% auto;
 }

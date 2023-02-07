@@ -22,7 +22,18 @@
 .grand-hamburger {
     display: none;
 }
-
+@media screen and (max-width:500px) {
+    .grand-ul {
+        display: none;
+    }
+    .grand-hamburger {
+        display: block;
+    }
+    .grand-Navhead {
+        font-weight: 400;
+        font-size: 25px;
+    }
+}
 @media screen and (max-width:450px) {
     .grand-ul {
         display: none;
