@@ -1,9 +1,7 @@
 .grand-AboutContainer {
     background-image: url(../../assets/constructframe.avif);
-    /* background-color: white; */
     background-position: center;
     background-size: cover;
-    /* height: 100vh;  */
     padding-top: 50px;
     margin: 0;
 }
@@ -55,13 +53,19 @@
 }
 
 @media screen and (max-width:450px) {
+    .grand-AboutContainer {
+        padding: 20px;
+    }
     .grand-Abouttext {
         width: 100%;
-        color: beige;
-        background-color: rgba(0, 0, 0, .8);
-        box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+        color: black;
+        background-color: rgba(255, 253, 253, 0.87);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         line-height: 25px;
         padding-bottom: 2px;
+    }
+    .grand-Aboutsection {
+        width: 100%;
     }
     .grand-Abouthead {
         text-align: center;
@@ -75,5 +79,17 @@
     }
     .grand-Aboutarticle {
         font-size: 15px;
+    }
+}
+@media screen and (max-width:320px) {
+    .grand-Abouthead {
+        font-size: 27px;
+        font-weight: 400;
+    }
+    .grand-AboutRead {
+        width: 45%;
+    }
+    .grand-Aboutarticle {
+        font-size: 14px;
     }
 }
