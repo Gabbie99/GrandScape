@@ -40,7 +40,15 @@
     margin-bottom: 50px;
 }
 .gs-Aboutpic img {
-    width: 300px;
-    height: 250px;
+    width: 350px;
+    height: 300px;
     object-fit: cover;
+}
+.gs-Aboutleaders-container {
+    width: 90%;
+    margin: auto;
+}
+.gs-Aboutleaders {
+    display: flex;
+    justify-content: space-between;
 }

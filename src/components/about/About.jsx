@@ -29,42 +29,44 @@ function About() {
             <p>&nbsp;</p>
           </div>
         </div><hr/>
-        <div className="gs-Aboutleaders">
-          <h1 className='gs-Aboutstory-head'>LEADERSHIP</h1>
-        </div>
       </div> 
-      <div className="gs-Aboutleadpic">
-        <img src="" alt="" />
-          <h2>Omaki Mustapha</h2>
-        <p><i>Founder/CEO</i></p>
-        <p className="gs-Aboutstory-para">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quae, est ut obcaecati illo quis a explicabo sed voluptate, culpa delectus sequi quod iusto adipisci praesentium aut? Distinctio, minus amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum aut ex minima voluptatem obcaecati expedita cupiditate? Nam laboriosam iure quo eius qui nemo ex nostrum? Pariatur mollitia aliquid totam id.
-        </p>
-      </div>
-      <div className="gs-Aboutleadpic">
-        <img src="" alt="" />
-        <h2>Adeniran Adebisi J.</h2>
-        <p><i>Engineer</i></p>
-        <p className="gs-Aboutstory-para">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quae, est ut obcaecati illo quis a explicabo sed voluptate, culpa delectus sequi quod iusto adipisci praesentium aut? Distinctio, minus amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum aut ex minima voluptatem obcaecati expedita cupiditate? Nam laboriosam iure quo eius qui nemo ex nostrum? Pariatur mollitia aliquid totam id.
-        </p>
-      </div>
-      <div className="gs-Aboutleadpic">
-        <img src="" alt="" />
-        <h2>Hassan Adavize A.</h2>
-        <p><i>Engineer</i></p>
-        <p className="gs-Aboutstory-para">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quae, est ut obcaecati illo quis a explicabo sed voluptate, culpa delectus sequi quod iusto adipisci praesentium aut? Distinctio, minus amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum aut ex minima voluptatem obcaecati expedita cupiditate? Nam laboriosam iure quo eius qui nemo ex nostrum? Pariatur mollitia aliquid totam id.
-        </p>
-      </div>
-      <div className="gs-Aboutleadpic">
-        <img src="" alt="" />
-        <h2>Abubakar Aliyu B.</h2>
-        <p><i>Engineer</i></p>
-        <p className="gs-Aboutstory-para">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quae, est ut obcaecati illo quis a explicabo sed voluptate, culpa delectus sequi quod iusto adipisci praesentium aut? Distinctio, minus amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum aut ex minima voluptatem obcaecati expedita cupiditate? Nam laboriosam iure quo eius qui nemo ex nostrum? Pariatur mollitia aliquid totam id.
-        </p>
-      </div>
+      <div className="gs-Aboutleaders-container">
+          <h1 className='gs-Aboutstory-head'>LEADERSHIP</h1>
+          <div className="gs-Aboutleaders">
+                <div className="gs-Aboutleadpic">
+              <img src="" alt="" />
+                <h2>Omaki Mustapha</h2>
+              <p><i>Founder/CEO</i></p>
+              <p className="gs-Aboutstory-para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quae, est ut obcaecati illo quis a explicabo sed voluptate, culpa delectus sequi quod iusto adipisci praesentium aut? Distinctio, minus amet. 
+              </p>
+            </div>
+            <div className="gs-Aboutleadpic">
+              <img src="" alt="" />
+              <h2>Adeniran Adebisi J.</h2>
+              <p><i>Engineer</i></p>
+              <p className="gs-Aboutstory-para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quae, est ut obcaecati illo quis a explicabo sed voluptate, culpa delectus sequi quod iusto adipisci praesentium aut? Distinctio, minus amet. 
+              </p>
+            </div>
+            <div className="gs-Aboutleadpic">
+              <img src="" alt="" />
+              <h2>Hassan Adavize A.</h2>
+              <p><i>Engineer</i></p>
+              <p className="gs-Aboutstory-para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quae, est ut obcaecati illo quis a explicabo sed voluptate, culpa delectus sequi quod iusto adipisci praesentium aut? Distinctio, minus amet. 
+              </p>
+            </div>
+            <div className="gs-Aboutleadpic">
+              <img src="" alt="" />
+              <h2>Abubakar Aliyu B.</h2>
+              <p><i>Engineer</i></p>
+              <p className="gs-Aboutstory-para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quae, est ut obcaecati illo quis a explicabo sed voluptate, culpa delectus sequi quod iusto adipisci praesentium aut? Distinctio, minus amet. 
+              </p>
+            </div>
+          </div> 
+      </div>   
     </div>
   )
 }
