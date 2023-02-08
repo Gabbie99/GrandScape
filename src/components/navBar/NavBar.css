@@ -22,6 +22,34 @@
 .grand-hamburger {
     display: none;
 }
+@media screen and (max-width:1125px) {
+    .grand-NavContainer {
+        width: 90%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:950px) {
+    .grand-NavContainer {
+        width: 96%;
+        margin: auto;
+    }
+    .grand-ul {
+        gap: 40px;
+    }
+}
+@media screen and (max-width:845px) {
+    .grand-ul {
+        gap: 30px;
+    }
+}
+@media screen and (max-width:770px) {
+    .grand-ul {
+        display: none;
+    }
+    .grand-hamburger {
+        display: block;
+    }
+}
 @media screen and (max-width:500px) {
     .grand-ul {
         display: none;

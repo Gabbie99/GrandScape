@@ -46,10 +46,8 @@
     background: rgb(13, 68, 13);
 }
 .grand-Servicelearn:hover {
-    /* background: black; */
     background: rgb(4,88,41);
     background: linear-gradient(132deg, rgba(4,88,41,1) 26%, rgba(9,85,42,1) 42%, rgba(11,47,69,1) 68%, rgba(8,54,80,1) 100%);
-    /* border: 1px solid green; */
     cursor: pointer;
     color: beige;
 }
@@ -69,8 +67,8 @@
 .grand-Servicesee {
 padding-bottom: 50px;
 }
-.grand-Workspic {
-    object-fit: contain;
+.grand-Workspic img{
+    width: 100%;
 }
 .grands-callhead {
     font-weight: 100;
@@ -92,6 +90,20 @@ padding-bottom: 50px;
     text-decoration: none;
 }
 
+@media screen and (max-width:1125px) {
+    .grand-Workspic img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:950px) {
+    .grand-Servicetext {
+        width: 70%;
+        margin: auto;
+    }
+    .grand-Servicelearn {
+        width: 15%;
+    }
+}
 @media screen and (max-width:450px) {
     .grand-Servicetext {
         width: 80%;

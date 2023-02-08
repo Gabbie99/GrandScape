@@ -39,11 +39,10 @@
     text-decoration: none;
 }
 .grand-AboutRead {
-    /* padding: 30px 0 15px 0; */
     text-align: center;
     background-color: rgb(13, 68, 13);
     width: 17%;
-    padding: 7px;
+    padding: 5px;
     color: beige;
     margin: 3% auto;
 }
@@ -53,6 +52,25 @@
     cursor: pointer;
 }
 
+@media screen and (max-width:950px) {
+    .grand-Abouttext {
+        width: 90%;
+        color: black;
+        background-color: rgba(255, 253, 253, 0.87);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        line-height: 28px;
+        padding-bottom: 2px;
+    }
+    .grand-AboutRead {
+        width: 20%;
+    }
+}
+@media screen and (max-width:845px) {
+    .grand-Abouttext {
+        width: 95%;
+        margin: auto;
+    }
+}
 @media screen and (max-width:450px) {
     .grand-AboutContainer {
         padding: 20px;
