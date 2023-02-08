@@ -9,8 +9,9 @@
     background: rgba(0, 0, 0, .4);
     color: beige;
     width: 50%;
+    padding: 20px;
     margin: 15% auto 0 auto;
-    font-size: x-large;
+    font-size: xx-large;
 }
 .grand-Homehead {
     font-weight: 100;
