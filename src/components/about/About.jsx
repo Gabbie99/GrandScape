@@ -7,7 +7,10 @@ function About() {
     <div className='gs-Aboutcontainer'>
       <div className="gs-Aboutwrap">
         <NavBar/>
+        <div className="gs-Hometext">
+        <h1 className='gs-Homehead'>A Story Of Exalted Merit </h1>
       </div>
+      </div> 
     </div>
   )
 }

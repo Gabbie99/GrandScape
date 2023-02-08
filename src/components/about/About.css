@@ -1,0 +1,18 @@
+.gs-Aboutcontainer {
+    background-image: url(../../assets/officeview.jpg);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+.gs-Hometext {
+    background: black;
+    background: rgba(0, 0, 0, .4);
+    color: beige;
+    width: 50%;
+    margin: 15% auto 0 auto;
+    font-size: x-large;
+}
+.gs-Homehead {
+    font-weight: 100;
+    text-align: center;
+}
