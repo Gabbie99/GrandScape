@@ -80,6 +80,21 @@
         margin: auto;
     }
 }
+
+@media screen and (max-width:622px) {
+    .grand-Abouthead {
+        font-size: 35px;
+    }
+    .grand-AboutRead {
+        width: 28%;
+    }
+}
+
+@media screen and (max-width:591px) {
+    .grand-Abouthead {
+        font-size: 30px;
+    }
+}
 @media screen and (max-width:500px) {
     .grand-Abouthead {
         font-size: 35px;

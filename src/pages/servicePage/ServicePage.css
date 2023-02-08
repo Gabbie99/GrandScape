@@ -120,7 +120,14 @@ padding-bottom: 50px;
         object-fit: cover; 
     }
 }
-
+@media screen and (max-width:622px) {
+    .grand-Servicelearn {
+        width: 22%;
+    }
+    .grand-Servicetouch {
+        width: 35%;
+    }
+}
 @media screen and (max-width:500px) {
     .grand-Servicetext {
         width: 80%;
