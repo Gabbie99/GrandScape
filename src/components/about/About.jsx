@@ -2,6 +2,8 @@ import React from 'react'
 import NavBar from '../navBar/NavBar'
 import './About.css'
 import construct from '../../assets/construction.jpg'
+import man from '../../assets/ch1.png'
+import Footer from '../footer/Footer'
 
 function About() {
   return (
@@ -34,7 +36,7 @@ function About() {
           <h1 className='gs-Aboutstory-head'>LEADERSHIP</h1>
           <div className="gs-Aboutleaders">
                 <div className="gs-Aboutleadpic">
-              <img src="" alt="" />
+              <img src={man} alt="manpix" />
                 <h2>Omaki Mustapha</h2>
               <p><i>Founder/CEO</i></p>
               <p className="gs-Aboutstory-para">
@@ -42,7 +44,7 @@ function About() {
               </p>
             </div>
             <div className="gs-Aboutleadpic">
-              <img src="" alt="" />
+              <img src={man} alt="manpix" />
               <h2>Adeniran Adebisi J.</h2>
               <p><i>Engineer</i></p>
               <p className="gs-Aboutstory-para">
@@ -50,7 +52,7 @@ function About() {
               </p>
             </div>
             <div className="gs-Aboutleadpic">
-              <img src="" alt="" />
+              <img src={man} alt="manpix" />
               <h2>Hassan Adavize A.</h2>
               <p><i>Engineer</i></p>
               <p className="gs-Aboutstory-para">
@@ -58,7 +60,7 @@ function About() {
               </p>
             </div>
             <div className="gs-Aboutleadpic">
-              <img src="" alt="" />
+              <img src={man} alt="manpix" />
               <h2>Abubakar Aliyu B.</h2>
               <p><i>Engineer</i></p>
               <p className="gs-Aboutstory-para">
@@ -66,7 +68,8 @@ function About() {
               </p>
             </div>
           </div> 
-      </div>   
+      </div>
+      <Footer/>   
     </div>
   )
 }
