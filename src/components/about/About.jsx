@@ -45,7 +45,7 @@ function About() {
             </div>
             <div className="gs-Aboutleadpic">
               <img src={man} alt="manpix" />
-              <h2>Adeniran Adebisi J.</h2>
+              <h2>Omaki Mustapha</h2>
               <p><i>Engineer</i></p>
               <p className="gs-Aboutstory-para">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quae, est ut obcaecati illo quis a explicabo sed voluptate, culpa delectus sequi quod iusto adipisci praesentium aut? Distinctio, minus amet. 
@@ -53,7 +53,7 @@ function About() {
             </div>
             <div className="gs-Aboutleadpic">
               <img src={man} alt="manpix" />
-              <h2>Hassan Adavize A.</h2>
+              <h2>Omaki Mustapha</h2>
               <p><i>Engineer</i></p>
               <p className="gs-Aboutstory-para">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quae, est ut obcaecati illo quis a explicabo sed voluptate, culpa delectus sequi quod iusto adipisci praesentium aut? Distinctio, minus amet. 
@@ -61,7 +61,7 @@ function About() {
             </div>
             <div className="gs-Aboutleadpic">
               <img src={man} alt="manpix" />
-              <h2>Abubakar Aliyu B.</h2>
+              <h2>Omaki Mustapha</h2>
               <p><i>Engineer</i></p>
               <p className="gs-Aboutstory-para">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quae, est ut obcaecati illo quis a explicabo sed voluptate, culpa delectus sequi quod iusto adipisci praesentium aut? Distinctio, minus amet. 
