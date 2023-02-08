@@ -1,4 +1,4 @@
-.gs-Aboutcontainer {
+.gs-Aboutwrap {
     background-image: url(../../assets/officeview.jpg);
     background-size: cover;
     position: relative;
@@ -9,11 +9,38 @@
     background: rgba(0, 0, 0, 0.61);
     color: beige;
     width: 50%;
-    padding: 20px;
+    padding: 15px;
     margin: 15% auto 0 auto;
     font-size: xx-large;
 }
 .gs-Homehead {
     font-weight: 100;
     text-align: center;
+}
+.gs-Aboutstory {
+    width: 60%;
+    margin: auto;
+}
+.gs-Aboutstory-head {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    margin: 50px 0 25px 0;
+    
+}
+.gs-Aboutstory-para {
+    line-height: 30px;
+}
+.gs-Aboutpic-tell {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.gs-Abouttell {
+    margin-bottom: 50px;
+}
+.gs-Aboutpic img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
 }
