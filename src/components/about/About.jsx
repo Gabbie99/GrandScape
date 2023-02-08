@@ -36,7 +36,7 @@ function About() {
       <div className="gs-Aboutleaders-container">
           <h1 className='gs-Aboutstory-head'>LEADERSHIP</h1>
           <div className="gs-Aboutleaders">
-                <div className="gs-Aboutleadpic">
+              <div className="gs-Aboutleadpic">
               <img src={man} alt="manpix" />
                 <h2>Omaki Mustapha</h2>
               <p><i>Founder/CEO</i></p>
