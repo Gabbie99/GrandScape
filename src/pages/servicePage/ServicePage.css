@@ -226,6 +226,15 @@ padding-bottom: 50px;
         font-size: 13px;
     }
 }
+
+@media screen and (max-width:366px) {
+    .grand-Servicelearn {
+        width: 27%;
+    }
+    .grand-Servicetouch {
+        width: 35%;
+    }
+}
 @media screen and (max-width:320px) {
     .grand-Servicetext {
         width: 80%;
