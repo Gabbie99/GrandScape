@@ -48,12 +48,11 @@
         transform: rotate(-45deg) translate(0, -1px);
     }
  
-    .hamburger{
-        
+    .hamburger{      
         position: absolute;
         width: 100px;
         margin: -70px 100px 0px -414px;
-        padding: 50px 230px;
+        padding: 50px 227px;
         color: white;
         padding-top: 90px;
         background: #283C61;

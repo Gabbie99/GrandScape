@@ -31,4 +31,12 @@
     font-size: 15px;
     font-weight: 500;
 }
+@media screen and (max-width:500px) {
+    .grand-footerlink {
+        font-size: 11px;
+    }
+    .grand-footercopy {
+        font-size: 12px;
+    }
+}
 

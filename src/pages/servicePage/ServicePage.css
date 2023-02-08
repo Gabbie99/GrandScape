@@ -104,6 +104,72 @@ padding-bottom: 50px;
         width: 15%;
     }
 }
+@media screen and (max-width:770px) {
+    .grand-Servicecards {
+        text-align: center;
+        padding: 13px;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    }
+    .grand-Servicecards p {
+        font-size: smaller;
+    }
+    .grand-Servicecards img {
+        width: 70px;
+        height: 70px;
+        object-fit: cover; 
+    }
+}
+
+@media screen and (max-width:500px) {
+    .grand-Servicetext {
+        width: 80%;
+        margin: auto;
+    }
+    .grand-Servicehead {
+        font-size: 30px;
+    }
+    .grand-Servicepara {
+        font-size: 15px;
+    }
+    .grand-Servicecardswrap {
+        display: grid;
+    }
+    .grand-Servicecards {
+        text-align: center;
+    }
+    .grand-Servicecards img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover; 
+    }
+    .grand-Servicecards p{
+        font-size: 15px;
+    }
+    .grand-Servicelearn {
+        width: 23%;
+        font-size: small;
+    }
+    .grand-Servicesee a{
+        font-size: 13px;
+    }
+    .grand-Workspic img{
+        width: 100%;
+    }
+    .grands-callhead {
+        font-size: 30px;
+        margin: 30px 0 20px 0;
+    }
+    #pee {
+        font-size: 14px;
+    }
+    .grand-Servicetouch {
+        width: 30%;
+    }
+    .grand-Servicetouch a{
+        font-size: 13px;
+    }
+}
 @media screen and (max-width:450px) {
     .grand-Servicetext {
         width: 80%;
