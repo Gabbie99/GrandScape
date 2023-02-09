@@ -2,7 +2,7 @@
     background-image: url(../../assets/officeview.jpg);
     background-size: cover;
     position: relative;
-    height: 100vh;
+    height: 128vh;
 }
 .gs-Hometext {
     background: black;
@@ -10,8 +10,8 @@
     color: beige;
     width: 50%;
     padding: 15px;
-    margin: 15% auto 0 auto;
-    font-size: x-large;
+    margin: 13% auto 0 auto;
+    font-size: 33px;
 }
 .gs-Homehead {
     font-weight: 100;
