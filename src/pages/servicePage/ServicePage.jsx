@@ -79,12 +79,12 @@ function ServicePage() {
       </div>
       <div className="grand-Servicetruck-wrap">
         <div className="grand-Servicetrucks">
-            <div className="grand-truck1">
+            <div className="grand-truck">
                 <img src={truck1} alt="truck1" />
             </div>
         </div>
         <div className="grand-Servicetrucks">
-            <div className="grand-truck2">
+            <div className="grand-truck">
                 <img src={truck2} alt="truck2" />
             </div>
         </div>

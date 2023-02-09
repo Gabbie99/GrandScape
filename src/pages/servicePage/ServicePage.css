@@ -91,8 +91,28 @@ padding-bottom: 50px;
 }
 .grand-Servicetruck-wrap {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin: 0 -15px;
+}
+.grand-Servicetrucks {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 0 15px;
+}
+.grand-truck {
+    width: 244px;
+    height: 147px;
+    position: relative;
+    animation: myfirst 15s linear 0s infinite alternate;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: myfirst;
 }
 
 @media screen and (max-width:1125px) {
