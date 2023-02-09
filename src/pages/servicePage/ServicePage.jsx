@@ -85,7 +85,7 @@ function ServicePage() {
         </div>
         <div className="grand-Servicetrucks">
             <div className="grand-truck">
-                <img src={truck2} alt="truck2" />
+                <img src={truck2} alt="truck2" id='tr' />
             </div>
         </div>
       </div>

@@ -2,7 +2,7 @@
     background-image: url(../../assets/luxhome.avif);
     background-size: cover;
     position: relative;
-    height: 100vh;
+    height: 130vh;
 }
 .grand-Hometext {
     background: black;
@@ -11,7 +11,7 @@
     width: 50%;
     padding: 20px;
     margin: 15% auto 0 auto;
-    font-size: xx-large;
+    font-size: x-large;
 }
 .grand-Homehead {
     font-weight: 100;
@@ -20,7 +20,7 @@
 
 @media screen and (max-width:1190px) {
     .grand-HomeContainer {
-        height:60vh;
+        height:120vh;
     }
 }
 @media screen and (max-width:845px) {
