@@ -29,10 +29,10 @@ function Footer() {
         </div>
         <div className="grand-footercopy">
             <p>&copy; 2023 Grandcsape Residence's Limited. All Rights Reserved</p>
-            <a href="#home">
+            {/* <a href="#home">
               <CaretUp size={32} weight="thin" />
             <p>Scroll up</p>
-            </a>
+            </a> */}
             
         </div>
       </div>
