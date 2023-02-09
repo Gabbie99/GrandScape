@@ -114,6 +114,16 @@ padding-bottom: 50px;
     animation-play-state: running;
     animation-name: myfirst;
 }
+@keyframes myfirst {
+    20% {
+        left: 0px;
+        top: 0px;
+    }
+    70% {
+        left: 200px;
+        top: 0px;
+    }
+}
 
 @media screen and (max-width:1125px) {
     .grand-Workspic img{
