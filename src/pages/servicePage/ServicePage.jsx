@@ -6,6 +6,8 @@ import road from '../../assets/road-construction.jpg'
 import maintain from '../../assets/maintenance.png'
 import supply from '../../assets/supply.png'
 import home from '../../assets/haverschool.jpg'
+import truck1 from '../../assets/truck.png'
+import truck2 from '../../assets/jcb.png'
 import {Link} from 'react-router-dom'
 
 
@@ -74,6 +76,18 @@ function ServicePage() {
         <p className='grand-Servicetouch'>
             <Link to='/contact'>Get in touch</Link>
         </p>
+      </div>
+      <div className="grand-Servicetruck-wrap">
+        <div className="grand-Servicetrucks">
+            <div className="grand-truck1">
+                <img src={truck1} alt="truck1" />
+            </div>
+        </div>
+        <div className="grand-Servicetrucks">
+            <div className="grand-truck2">
+                <img src={truck2} alt="truck2" />
+            </div>
+        </div>
       </div>
       <Footer/>
     </div>

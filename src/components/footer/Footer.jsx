@@ -24,13 +24,16 @@ function Footer() {
         </div>
         <div className="grand-footerlink">
           <p><Link to='/contact'>CONTACT</Link></p>
-          <p><Link to='/services'>TERMS OF SERVICE</Link></p>
-          <p><Link to='/services'>PRIVACY POLICY</Link></p>
+          <p><Link to='/service-terms'>TERMS OF SERVICE</Link></p>
+          <p><Link to='/privacy-policy'>PRIVACY POLICY</Link></p>
         </div>
         <div className="grand-footercopy">
             <p>&copy; 2023 Grandcsape Residence's Limited. All Rights Reserved</p>
-            <CaretUp size={32} weight="thin" />
+            <a href="#home">
+              <CaretUp size={32} weight="thin" />
             <p>Scroll up</p>
+            </a>
+            
         </div>
       </div>
     </div>
