@@ -35,10 +35,8 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    width: 80%;
+    width: 65%;
     margin: auto;
-}
-.gs-Abouttell {
     margin-bottom: 50px;
 }
 .gs-Aboutpic img {
