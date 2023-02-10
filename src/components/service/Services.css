@@ -1,0 +1,55 @@
+
+.gs-Serviceswrap {
+    background-image: url(../../assets/serve.jpeg);
+    background-size: cover;
+    position: relative;
+    height: 105vh;
+    opacity: .9;
+}
+.gs-Servicesheadwrap {
+    background: black;
+    background: rgba(0, 0, 0, 0.575);
+    color: beige;
+    width: 50%;
+    padding: 20px;
+    margin: 15% auto 0 auto;
+    font-size: x-large;
+    z-index: 4;
+}
+.gs-Serviceshead {
+    font-weight: 100;
+    text-align: center;
+}
+.gs-Servicestext {
+    width: 40%;
+    margin: auto;
+}
+.gs-Servicestexthead {
+    font-weight: 100;
+    font-size: 50px;
+    padding: 80px 0 20px 0;
+}
+.gs-Servicestext p{
+    line-height: 29px;
+}
+.gs-Servicesspan {
+    color: rgba(53, 146, 252, 0.979);
+    font-weight: 700;
+}
+.gs-Servicespix {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 300px;
+}
+.gs-pee {
+    background: black;
+    background: rgba(0, 0, 0, 0.575);
+    color: beige;
+    width: 100%;
+    padding: 25px;
+    margin: 15px auto 0 auto;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 4;
+}
