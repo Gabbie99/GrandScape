@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../footer/Footer'
 import NavBar from '../navBar/NavBar'
+import { MapPin, WhatsappLogo, Phone, Envelope } from 'phosphor-react'
 import './Contact.css'
 
 function Contact() {
@@ -29,14 +30,25 @@ function Contact() {
                   </p>
                   <div className="gs-Contactadress-icon">
                     <MapPin size={32} weight="thin" />
-                    <p>No 37 Obiokosi Street Gwarimpa, Abuja</p>
+                    <p>No 37 Obi Okosi Street, Federal Housing Estate Gwarimpa Abuja</p>
                   </div>
                   <div className="gs-Contactadress-icon">
                     <WhatsappLogo size={32} weight="thin" />
-                    <a href="tel:+234 803-586-7102"></a>
+                    <p>  
+                    <a href="https://wa.me/8035867102">08035867102</a>
+                    </p>
                   </div>
                   <div className="gs-Contactadress-icon">
-
+                    <Phone size={32} weight="thin" />
+                    <p>  
+                    <a href="tel:+2348035867102">+234 803-586-7102</a>
+                    </p>
+                  </div>
+                  <div className="gs-Contactadress-icon">
+                    <Envelope size={32} weight="thin" />
+                    <p>  
+                    <a href="mailto:granscapegroup@gmail.com">granscapegroup@gmail.com</a>
+                    </p>
                   </div>
                 </div>
                 </div>

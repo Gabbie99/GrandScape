@@ -37,6 +37,10 @@
     display: flex;
     justify-content: space-between;
 }
+.gs-Contactadress-icon {
+    display: flex;
+    align-items: center;
+}
 .gs-Contactform {
     width: 50%;
 }
