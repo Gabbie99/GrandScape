@@ -23,14 +23,14 @@ function Contact() {
         </div>
             <div className="gs-Contactflex">
                 <div className='gs-Contactmap'>
-                {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.599831452894!2d7.400188914059594!3d9.100169290377648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e7571054e4a95%3A0x7564b4270a60fc82!2s37%20Obi%20Okosi%20St%2C%20Gwarinpa%20900108%2C%20Abuja%2C%20Federal%20Capital%20Territory!5e0!3m2!1sen!2sng!4v1676021236481!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe> */}
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.599831452894!2d7.400188914059594!3d9.100169290377648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e7571054e4a95%3A0x7564b4270a60fc82!2s37%20Obi%20Okosi%20St%2C%20Gwarinpa%20900108%2C%20Abuja%2C%20Federal%20Capital%20Territory!5e0!3m2!1sen!2sng!4v1676021236481!5m2!1sen!2sng" width="600" height="450" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title='map'></iframe>
                 <div className="gs-Contactaddress">
                   <h3>
                     Grandscape Residence's Limited, Company
                   </h3>
                   <div className="gs-Contactadress-icon">
                     <MapPin size={25} weight="thin" />
-                    <p>No 37 Obi Okosi Street, Federal Housing Estate Gwarimpa Abuja</p>
+                    <p>No 37 Obi Okosi Street, Federal Housing Estate Gwarimpa Abuja.</p>
                   </div>
                   <div className="gs-Contactadress-icon">
                     <WhatsappLogo size={25} weight="thin" />

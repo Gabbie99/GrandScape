@@ -32,7 +32,7 @@ function Footer() {
            
         </div>
             <a href="#G" id='arr'>
-              <ArrowCircleUp size={32} weight="regular" />
+              <ArrowCircleUp size={32} weight="thin" />
             </a>        
       </div>
     </div>

@@ -28,14 +28,17 @@
     margin: auto;
 }
 .gs-Contact-text-p {
-    line-height: 25px;
+    line-height: 29px;
     margin-bottom: 40px;
 }
 .gs-Contactflex {
-    width: 80%;
-    margin: auto;
+    width: 90%;
+    margin:  10% auto;
     display: flex;
-    justify-content: space-between;
+    gap: 60px;
+}
+iframe {
+    margin-bottom: 50px;
 }
 .gs-Contactadress-icon {
     margin: 20px 0;
