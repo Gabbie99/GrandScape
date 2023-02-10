@@ -33,9 +33,9 @@
 }
 .gs-Contactflex {
     width: 90%;
-    margin:  10% auto;
+    margin:  8% auto;
     display: flex;
-    gap: 60px;
+    gap: 40px;
 }
 iframe {
     margin-bottom: 50px;
@@ -86,4 +86,32 @@ iframe {
     transform: scale(1.09);
     background: rgb(4,88,41);
     background: linear-gradient(132deg, rgba(4,88,41,1) 26%, rgba(9,85,42,1) 42%, rgba(11,47,69,1) 68%, rgba(8,54,80,1) 100%);
+}
+
+@media screen and (max-width:1125px) {
+    iframe {
+        width: 550px;
+        height: 400px;
+    }
+}
+@media screen and (max-width:950px) {
+    iframe {
+        width: 450px;
+        height: 350px;
+    }
+}
+@media screen and (max-width:850px) {
+    iframe {
+        width: 500px;
+        height: 350px;
+    }
+}
+@media screen and (max-width:950px) {
+    
+}
+@media screen and (max-width:950px) {
+    
+}
+@media screen and (max-width:950px) {
+    
 }
