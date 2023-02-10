@@ -102,15 +102,36 @@ iframe {
 }
 @media screen and (max-width:850px) {
     iframe {
-        width: 500px;
+        width: 400px;
         height: 350px;
     }
 }
-@media screen and (max-width:950px) {
-    
+@media screen and (max-width:770px) {
+    iframe {
+        width: 350px;
+        height: 300px;
+    }
 }
-@media screen and (max-width:950px) {
-    
+@media screen and (max-width:662px) {
+    .gs-Contactflex {
+        /* width: 90%;
+        margin:  8% auto; */
+        display: grid;
+        gap: 40px;
+        justify-items: center;
+    }
+    .gs-Contactmap {
+        display: grid;
+        justify-items: center;
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
+    }
+    .gs-Contact-text {
+        width: 60%;
+        margin: auto;
+    }
 }
 @media screen and (max-width:950px) {
     
