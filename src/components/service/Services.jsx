@@ -1,6 +1,7 @@
 import React from 'react'
 import './Services.css'
 import NavBar from '../navBar/NavBar'
+import Footer from '../footer/Footer'
 import maintain from '../../assets/maintain.jpg'
 import sustain from '../../assets/Sustainable.jpg'
 import suplly from '../../assets/supllymethod.png'
@@ -30,7 +31,7 @@ function Services() {
                         <h2 className='gs-pee'>Supply Methods</h2>
                         <span className='gs-galleryspan'></span>
                     </div>
-                    <span className='gs-gallery' style={{overflow:"hidden"}}><img src={preconstruct}alt="gallery" /></span>
+                    <span className='gs-gallery' style={{overflow:"hidden"}}><img src={preconstruct} alt="gallery" width={950} height={600} /></span>
                 </div>
             </article>
             <article className='gs-Servicesgallery'>
@@ -69,23 +70,9 @@ function Services() {
                     <span className='gs-gallery' style={{overflow:"hidden"}}><img src={safe} alt="gallery" /></span>
                 </div>
             </article>
-            <div className="gs-Servicespee">
-                <p className='gs-pee'></p>
-            </div>
-            <div className="gs-Servicespee">
-                <p className='gs-pee'></p>
-            </div>
-            <div className="gs-Servicespee">
-                <p className='gs-pee'></p>
-            </div>
-            <div className="gs-Servicespee">
-                <p className='gs-pee'></p>
-            </div>
-            <div className="gs-Servicespee">
-                <p className='gs-pee'></p>
-            </div>
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }

@@ -36,18 +36,54 @@
     color: rgba(53, 146, 252, 0.979);
     font-weight: 700;
 }
-.gs-Servicespix {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 300px;
+.gs-Servicesgallery {
+    position: relative;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.gs-Servicesgallery-item {
+    position: absolute;
+    top: 500;
+    right: 0px;
+    bottom: 0px;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 0;
+}
+.gs-Servicesgallery-item::before{
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 100%;
+}
+.gs-Servicesgallery-item::after {
+    content: '';
+    display: block;
+    position: relative;
+    z-index: -1;
+    padding-bottom: 65%;
+}
+.gs-Servicegallery-item-inn {
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    white-space: normal;
+    padding: 10px;
+    background: rgba(38,33,33,.7);
+    -webkit-font-smoothing: antialiased;
 }
 .gs-pee {
     background: black;
-    background: rgba(0, 0, 0, 0.575);
+    background: rgba(0, 0, 0, 0.356);
     color: beige;
-    width: 100%;
+    width: 30%;
     padding: 25px;
-    margin: 15px auto 0 auto;
+    /* margin: 15px auto 0 auto; */
     font-size: 24px;
     text-transform: uppercase;
     text-align: center;
