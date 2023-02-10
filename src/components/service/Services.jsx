@@ -1,11 +1,11 @@
 import React from 'react'
 import './Services.css'
 import NavBar from '../navBar/NavBar'
-// import maintain from '../../assets/maintain.jpg'
-// import sustain from '../../assets/Sustainable.jpg'
-// import suplly from '../../assets/supllymethod.png'
-// import safe from '../../assets/aboutconstruct.jpg'
-// import preconstruct from '../../assets/sanschool.jpg'
+import maintain from '../../assets/maintain.jpg'
+import sustain from '../../assets/Sustainable.jpg'
+import suplly from '../../assets/supllymethod.png'
+import safe from '../../assets/aboutconstruct.jpg'
+import preconstruct from '../../assets/sanschool.jpg'
 
 function Services() {
   return (
@@ -26,48 +26,63 @@ function Services() {
         <div className="gs-Servicespix">
             <article className='gs-Servicesgallery'>
                 <div className="gs-Servicesgallery-item">
-                    
+                    <div className="gs-Servicesgallery-item-inn">
+                        <h2 className='gs-pee'>Supply Methods</h2>
+                        <span className='gs-galleryspan'></span>
+                    </div>
+                    <span className='gs-gallery' style={{overflow:"hidden"}}><img src={preconstruct}alt="gallery" /></span>
                 </div>
             </article>
             <article className='gs-Servicesgallery'>
                 <div className="gs-Servicesgallery-item">
-                    
+                    <div className="gs-Servicesgallery-item-inn">
+                        <h2 className='gs-pee'>Construction</h2>
+                        <span className='gs-galleryspan'></span>
+                    </div>
+                    <span className='gs-gallery' style={{overflow:"hidden"}}><img src={suplly} alt="gallery" /></span>
                 </div>
             </article>
             <article className='gs-Servicesgallery'>
                 <div className="gs-Servicesgallery-item">
-                    
+                    <div className="gs-Servicesgallery-item-inn">
+                        <h2 className='gs-pee'>Safety</h2>
+                        <span className='gs-galleryspan'></span>
+                    </div>
+                    <span className='gs-gallery' style={{overflow:"hidden"}}><img src={sustain} alt="gallery" /></span>
                 </div>
             </article>
             <article className='gs-Servicesgallery'>
                 <div className="gs-Servicesgallery-item">
-                    
+                    <div className="gs-Servicesgallery-item-inn">
+                        <h2 className='gs-pee'>Design Maintenance</h2>
+                        <span className='gs-galleryspan'></span>
+                    </div>
+                    <span className='gs-gallery' style={{overflow:"hidden"}}><img src={maintain} alt="gallery" /></span>
                 </div>
             </article>
             <article className='gs-Servicesgallery'>
                 <div className="gs-Servicesgallery-item">
-                    
+                    <div className="gs-Servicesgallery-item-inn">
+                        <h2 className='gs-pee'>Sustainability</h2>
+                        <span className='gs-galleryspan'></span>
+                    </div>
+                    <span className='gs-gallery' style={{overflow:"hidden"}}><img src={safe} alt="gallery" /></span>
                 </div>
             </article>
-            {/* <img src={preconstruct} alt="" />
-            <img src={suplly} alt="" />
-            <img src={sustain} alt="" />
-            <img src={maintain} alt="" />
-            <img src={safe} alt="" /> */}
             <div className="gs-Servicespee">
-                <p className='gs-pee'>Supply Methods</p>
+                <p className='gs-pee'></p>
             </div>
             <div className="gs-Servicespee">
-                <p className='gs-pee'>Construction</p>
+                <p className='gs-pee'></p>
             </div>
             <div className="gs-Servicespee">
-                <p className='gs-pee'>Safety</p>
+                <p className='gs-pee'></p>
             </div>
             <div className="gs-Servicespee">
-                <p className='gs-pee'>Design Maintenance</p>
+                <p className='gs-pee'></p>
             </div>
             <div className="gs-Servicespee">
-                <p className='gs-pee'>Sustainability</p>
+                <p className='gs-pee'></p>
             </div>
         </div>
       </div>
