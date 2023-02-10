@@ -4,7 +4,7 @@ import NavBar from '../../components/navBar/NavBar'
 
 function HomePage() {
   return (
-    <div className='grand-HomeContainer' id='home'>
+    <div className='grand-HomeContainer' id='G'>
         <NavBar/>
       <div className="grand-Hometext">
         <h1 className='grand-Homehead'>Making Your Vision Become A Reality </h1>

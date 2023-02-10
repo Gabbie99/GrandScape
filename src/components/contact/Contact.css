@@ -38,8 +38,14 @@
     justify-content: space-between;
 }
 .gs-Contactadress-icon {
+    margin: 20px 0;
     display: flex;
     align-items: center;
+    gap: 8px;
+}
+.gs-Contactadress-icon a{
+    text-decoration: none;
+    color: black;
 }
 .gs-Contactform {
     width: 50%;
@@ -52,9 +58,12 @@
     margin: 10px 0;
 }
 .gs-input::placeholder{
-    opacity: .3;
+    opacity: .2;
+    font-style: italic;
 }
 #text {
+    font-style: italic;
+    opacity: .3;
     width: 100%;
     padding: 15px; 
     outline: none;
@@ -66,4 +75,12 @@
     padding: 15px 30px;
     margin-bottom: 100px;
     color: beige;
+    transform: translateZ(0);
+    transition: transform .40s ease-out;
+}
+.gs-button:hover {
+    cursor: pointer;
+    transform: scale(1.09);
+    background: rgb(4,88,41);
+    background: linear-gradient(132deg, rgba(4,88,41,1) 26%, rgba(9,85,42,1) 42%, rgba(11,47,69,1) 68%, rgba(8,54,80,1) 100%);
 }

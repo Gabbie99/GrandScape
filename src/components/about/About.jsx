@@ -7,7 +7,7 @@ import Footer from '../footer/Footer'
 
 function About() {
   return (
-    <div className='gs-Aboutcontainer'>
+    <div className='gs-Aboutcontainer' id='G'>
       <div className="gs-Aboutwrap">
         <NavBar/>
         <div className="gs-Hometext">

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import {LinkedinLogo, FacebookLogo, InstagramLogo, TwitterLogo, CaretUp} from 'phosphor-react'
+import {LinkedinLogo, FacebookLogo, InstagramLogo, TwitterLogo, ArrowCircleUp} from 'phosphor-react'
 import { Link } from 'react-router-dom'
 
 
@@ -29,12 +29,11 @@ function Footer() {
         </div>
         <div className="grand-footercopy">
             <p>&copy; 2023 Grandcsape Residence's Limited. All Rights Reserved</p>
-            {/* <a href="#home">
-              <CaretUp size={32} weight="thin" />
-            <p>Scroll up</p>
-            </a> */}
-            
+           
         </div>
+            <a href="#G" id='arr'>
+              <ArrowCircleUp size={32} weight="regular" />
+            </a>        
       </div>
     </div>
   )
