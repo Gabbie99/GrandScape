@@ -34,19 +34,24 @@
 .gs-Contactflex {
     width: 80%;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.gs-Contactform {
+    width: 50%;
 }
 .gs-input {
     outline: none;
     border: 1px solid rgb(117, 117, 117);
-    padding: 15px 20px;
-    width: 50%;
+    padding: 15px 40px;
+    width: 100%;
     margin: 10px 0;
 }
 .gs-input::placeholder{
-    opacity: .5;
+    opacity: .3;
 }
 #text {
-    width: 50%;
+    width: 100%;
     padding: 15px; 
     outline: none;
     border: 1px solid rgb(117, 117, 117);
