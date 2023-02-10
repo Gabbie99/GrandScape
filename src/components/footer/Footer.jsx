@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import {LinkedinLogo, FacebookLogo, InstagramLogo, TwitterLogo, ArrowCircleUp} from 'phosphor-react'
+import {LinkedinLogo, FacebookLogo, InstagramLogo, TwitterLogo, CaretUp} from 'phosphor-react'
 import { Link } from 'react-router-dom'
 
 
@@ -32,7 +32,7 @@ function Footer() {
            
         </div>
             <a href="#G" id='arr'>
-              <ArrowCircleUp size={32} weight="thin" />
+            <CaretUp size={32} weight="thin" />
             </a>        
       </div>
     </div>

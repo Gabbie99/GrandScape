@@ -35,7 +35,7 @@ function Contact() {
                   <div className="gs-Contactadress-icon">
                     <WhatsappLogo size={25} weight="thin" />
                     <p>  
-                    <a href="https://wa.me/8035867102">08035867102</a>
+                    <a href="https://wa.me/+2348035867102">08035867102</a>
                     </p>
                   </div>
                   <div className="gs-Contactadress-icon">
