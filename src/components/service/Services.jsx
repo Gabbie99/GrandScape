@@ -11,7 +11,7 @@ import preconstruct from '../../assets/sanschool.jpg'
 function Services() {
   return (
     <div className='gs-Servicescontainer'>
-      <div className="gs-Serviceswrap">
+      <div className="gs-Serviceswrap" id='G'>
         <NavBar/>
         <div className="gs-Servicesheadwrap">
             <h1 className="gs-Serviceshead">Services For Your Satisfaction</h1>
@@ -28,16 +28,16 @@ function Services() {
             <article className='gs-Servicesgallery'>
                 <div className="gs-Servicesgallery-item">
                     <div className="gs-Servicesgallery-item-inn">
-                        <h2 className='gs-pee'>Supply Methods</h2>
+                        <h2 className='gs-pee'>Supply Construction</h2>
                         <span className='gs-galleryspan'></span>
                     </div>
-                    <span className='gs-gallery' style={{overflow:"hidden"}}><img src={preconstruct} alt="gallery" width={950} height={600} /></span>
+                    <span className='gs-gallery' style={{overflow:"hidden"}}><img src={preconstruct} alt="gallery"  /></span>
                 </div>
             </article>
             <article className='gs-Servicesgallery'>
                 <div className="gs-Servicesgallery-item">
                     <div className="gs-Servicesgallery-item-inn">
-                        <h2 className='gs-pee'>Construction</h2>
+                        <h2 className='gs-pee'>Supply Methods</h2>
                         <span className='gs-galleryspan'></span>
                     </div>
                     <span className='gs-gallery' style={{overflow:"hidden"}}><img src={suplly} alt="gallery" /></span>
@@ -46,7 +46,7 @@ function Services() {
             <article className='gs-Servicesgallery'>
                 <div className="gs-Servicesgallery-item">
                     <div className="gs-Servicesgallery-item-inn">
-                        <h2 className='gs-pee'>Safety</h2>
+                        <h2 className='gs-pee'>Sustainability</h2>
                         <span className='gs-galleryspan'></span>
                     </div>
                     <span className='gs-gallery' style={{overflow:"hidden"}}><img src={sustain} alt="gallery" /></span>
@@ -64,7 +64,7 @@ function Services() {
             <article className='gs-Servicesgallery'>
                 <div className="gs-Servicesgallery-item">
                     <div className="gs-Servicesgallery-item-inn">
-                        <h2 className='gs-pee'>Sustainability</h2>
+                        <h2 className='gs-pee'>Safety</h2>
                         <span className='gs-galleryspan'></span>
                     </div>
                     <span className='gs-gallery' style={{overflow:"hidden"}}><img src={safe} alt="gallery" /></span>
