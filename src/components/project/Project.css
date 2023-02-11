@@ -31,3 +31,18 @@
 .gs-Projecttext p{
     line-height: 29px;
 }
+.gs-Projectgallerywrap {
+    display: grid;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    margin: 8% 0 0 0;
+}
+.gs-Projectgallery {
+    width: 100%;
+    display: flex;
+}
+.gs-Projectgallery img{
+    width: 650px;
+    height: 430px;
+    object-fit: cover;
+}

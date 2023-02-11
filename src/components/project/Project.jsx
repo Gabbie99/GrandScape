@@ -4,11 +4,12 @@ import pic1 from '../../assets/groundview (1).jpg'
 import pic2 from '../../assets/view1 (1).jpg'
 import pic3 from '../../assets/twoyears.jpg'
 import './Project.css'
+import Footer from '../footer/Footer'
 
 
 function Project() {
   return (
-    <div className='gs-Projectcontainer'>
+    <div className='gs-Projectcontainer' id='G'>
       <div className="gs-Projectwrap">
         <NavBar/>
         <div className="gs-Projecthead">
@@ -24,13 +25,13 @@ function Project() {
         </div>
         <div className="gs-Projectgallerywrap">
             <div className="gs-Projectgallery">
-                <img src={pic1} alt="" />
+                <img src={pic1} alt="gallery" />
             </div>
             <div className="gs-Projectgallery">
-                <img src={pic2} alt="" />
+                <img src={pic2} alt="gallery" />
             </div>
             <div className="gs-Projectgallery">
-                <img src={pic3} alt="" />
+                <img src={pic3} alt="gallery" />
             </div>
             {/* <div className="gs-Projectgallery">
                 <img src={} alt="" />
@@ -40,6 +41,7 @@ function Project() {
             </div> */}
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }

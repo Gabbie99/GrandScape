@@ -38,6 +38,7 @@
 }
 .gs-Servicespix {
     display: grid;
+    margin: 8% 0 0 0;
 }
 .gs-gallery img{
     width: 700px;
@@ -62,37 +63,13 @@
     overflow: hidden;
     font-size: 0;
 }
-.gs-Servicesgallery-item::before{
-    content: '';
-    display: flex;
-    width: 0;
-    height: 100%;
-}
-.gs-Servicesgallery-item::after {
-    content: '';
-    display: block;
-    position: relative;
-    z-index: -1;
-    /* padding-bottom: 65%; */
-}
-.gs-Servicegallery-item-inn {
-    font-size: 16px;
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    max-width: 100%;
-    white-space: normal;
-    padding: 10px;
-    background: rgba(38,33,33,.7);
-    -webkit-font-smoothing: antialiased;
-}
 .gs-pee {
     background: black;
     background: rgba(0, 0, 0, 0.356);
     color: beige;
     width: 30%;
     padding: 25px;
-    /* margin: 15px auto 0 auto; */
+    margin: 150px;
     font-size: 28px;
     font-weight: 100;
     text-transform: uppercase;
