@@ -16,7 +16,7 @@ function Hamburger() {
                   <Link to='/about' className='ham-li'><li>About</li></Link>                  
                   <Link to='/services' className='ham-li'><li>Services</li></Link>
                   <Link to='/projects' className='ham-li'><li>Projects</li></Link>
-                  <Link to='/testimonials' className='ham-li'><li>Testimonials</li></Link>  
+                  {/* <Link to='/testimonials' className='ham-li'><li>Testimonials</li></Link>   */}
                   <Link to='/contact' className='ham-li'><li>Contact</li></Link>  
                 </ul>
         </div>

@@ -1,0 +1,33 @@
+.gs-Projectwrap {
+    background-image: url(../../assets/projuk.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 110vh;
+}
+.gs-Projecthead {
+    background: black;
+    background: rgba(0, 0, 0, 0.637);
+    color: beige;
+    width: 50%;
+    padding: 20px;
+    margin: 15% auto 0 auto;
+    font-size: x-large;
+    z-index: 4;
+}
+.gs-Projectheading {
+    font-weight: 100;
+    text-align: center;
+}
+.gs-Projecttext {
+    width: 40%;
+    margin: auto;
+}
+.gs-Projecttext-head {
+    font-weight: 100;
+    font-size: 50px;
+    padding: 80px 0 20px 0;
+}
+.gs-Projecttext p{
+    line-height: 29px;
+}

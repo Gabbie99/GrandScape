@@ -15,7 +15,7 @@ function NavBar() {
           <Link to='/about' className="grand-li"><div>About</div></Link>
           <Link to='/services' className="grand-li"><div>Services</div></Link>
           <Link to='/projects' className="grand-li"><div>Projects</div></Link>
-          <Link to='/testimonials' className="grand-li"><div>Testimonials</div></Link>
+          {/* <Link to='/testimonials' className="grand-li"><div>Testimonials</div></Link> */}
           <Link to='/contact' className="grand-li"><div>Contact</div></Link>
         </ul>
       </div>
