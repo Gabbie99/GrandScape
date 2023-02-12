@@ -42,8 +42,6 @@ function Services() {
                     </div>
                     <span className='gs-gallery' style={{overflow:"hidden"}} id='two'><img src={suplly} alt="gallery" /></span>
                 </div>
-            </article>
-            <article className='gs-Servicesgallery'>
                 <div className="gs-Servicesgallery-item">
                     <div className="gs-Servicesgallery-item-inn">
                         <h2 className='gs-pee'>Sustainability</h2>
@@ -60,8 +58,6 @@ function Services() {
                     </div>
                     <span className='gs-gallery' style={{overflow:"hidden"}} id='four'><img src={maintain} alt="gallery" /></span>
                 </div>
-            </article>
-            <article className='gs-Servicesgallery'>
                 <div className="gs-Servicesgallery-item">
                     <div className="gs-Servicesgallery-item-inn">
                         <h2 className='gs-pee'>Safety</h2>

@@ -42,18 +42,21 @@
     display: flex;
     flex-wrap: wrap;
     margin: 8% auto 0 auto;
-    width: 80%;
+    width: 100%;
 }
 .gs-gallery img{
     width: 100%;
     object-fit: cover;
     vertical-align: middle;
 }
-.gs-gallery {
+/* .gs-gallery {
     flex: 15%;
     max-width: 25%;
     padding: 0px 5px;
-}
+} */
+ .gs-Servicesgallery {
+    display: flex;
+ }
  .gs-Servicesgallery-item {
    position: relative;
     width: 100%;
