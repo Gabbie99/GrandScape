@@ -1,4 +1,6 @@
-
+.gs-Servicescontainer {
+    margin: 0;
+}
 .gs-Serviceswrap {
     background-image: url(../../assets/serve.jpeg);
     background-size: cover;
@@ -37,13 +39,16 @@
     font-weight: 700;
 }
 .gs-Servicespix {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     margin: 8% 0 0 0;
+    width: 100%;
 }
 .gs-gallery img{
-    width: 700px;
-    height: 500px;
+    width: 100%;
     object-fit: cover;
+    vertical-align: middle;
+    
 }
 .gs-Servicesgallery {
     position: relative;
@@ -58,6 +63,8 @@
     right: 0px;
     bottom: 0px;
     left: 0;
+    flex: 20%;
+    max-width: 100%;
     float:inline-end;
     white-space: wrap;
     overflow: hidden;
@@ -69,7 +76,9 @@
     color: beige;
     width: 30%;
     padding: 25px;
-    margin: 150px;
+    /* margin: 0 auto; */
+    top: 45%;
+    left: 35%;
     font-size: 28px;
     font-weight: 100;
     text-transform: uppercase;
