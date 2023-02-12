@@ -28,10 +28,10 @@ function Services() {
             <article className='gs-Servicesgallery'>
                 <div className="gs-Servicesgallery-item">
                     <div className="gs-Servicesgallery-item-inn">
-                        <h2 className='gs-pee'>Construction</h2>
+                        <h2 className='gs-pee'>Sustainability</h2>
                         <span className='gs-galleryspan'></span>
                     </div>
-                    <span className='gs-gallery' style={{overflow:"hidden"}} id='one'><img src={preconstruct} alt="gallery"  /></span>
+                    <span className='gs-gallery' style={{overflow:"hidden"}} id='one'><img src={sustain} alt="gallery"  /></span>
                 </div>
             </article>
             <article className='gs-Servicesgallery'>
@@ -44,10 +44,10 @@ function Services() {
                 </div>
                 <div className="gs-Servicesgallery-item">
                     <div className="gs-Servicesgallery-item-inn">
-                        <h2 className='gs-pee'>Sustainability</h2>
+                        <h2 className='gs-pee'>Construction</h2>
                         <span className='gs-galleryspan'></span>
                     </div>
-                    <span className='gs-gallery' style={{overflow:"hidden"}} id='three'><img src={sustain} alt="gallery" /></span>
+                    <span className='gs-gallery' style={{overflow:"hidden"}} id='three'><img src={preconstruct} alt="gallery" /></span>
                 </div>
             </article>
             <article className='gs-Servicesgallery'>
