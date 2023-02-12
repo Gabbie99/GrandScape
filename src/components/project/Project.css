@@ -42,7 +42,6 @@
     display: flex;
 }
 .gs-Projectgallery img{
-    width: 650px;
-    height: 430px;
+    width: 100%;
     object-fit: cover;
 }
