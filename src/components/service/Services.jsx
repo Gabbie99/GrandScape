@@ -31,7 +31,7 @@ function Services() {
                         <h2 className='gs-pee'>Construction</h2>
                         <span className='gs-galleryspan'></span>
                     </div>
-                    <span className='gs-gallery' style={{overflow:"hidden"}}><img src={preconstruct} alt="gallery"  /></span>
+                    <span className='gs-gallery' style={{overflow:"hidden"}} id='one'><img src={preconstruct} alt="gallery"  /></span>
                 </div>
             </article>
             <article className='gs-Servicesgallery'>
@@ -40,7 +40,7 @@ function Services() {
                         <h2 className='gs-pee'>Supply Methods</h2>
                         <span className='gs-galleryspan'></span>
                     </div>
-                    <span className='gs-gallery' style={{overflow:"hidden"}}><img src={suplly} alt="gallery" /></span>
+                    <span className='gs-gallery' style={{overflow:"hidden"}} id='two'><img src={suplly} alt="gallery" /></span>
                 </div>
             </article>
             <article className='gs-Servicesgallery'>
@@ -49,7 +49,7 @@ function Services() {
                         <h2 className='gs-pee'>Sustainability</h2>
                         <span className='gs-galleryspan'></span>
                     </div>
-                    <span className='gs-gallery' style={{overflow:"hidden"}}><img src={sustain} alt="gallery" /></span>
+                    <span className='gs-gallery' style={{overflow:"hidden"}} id='three'><img src={sustain} alt="gallery" /></span>
                 </div>
             </article>
             <article className='gs-Servicesgallery'>
@@ -58,7 +58,7 @@ function Services() {
                         <h2 className='gs-pee'>Design Maintenance</h2>
                         <span className='gs-galleryspan'></span>
                     </div>
-                    <span className='gs-gallery' style={{overflow:"hidden"}}><img src={maintain} alt="gallery" /></span>
+                    <span className='gs-gallery' style={{overflow:"hidden"}} id='four'><img src={maintain} alt="gallery" /></span>
                 </div>
             </article>
             <article className='gs-Servicesgallery'>
@@ -67,7 +67,7 @@ function Services() {
                         <h2 className='gs-pee'>Safety</h2>
                         <span className='gs-galleryspan'></span>
                     </div>
-                    <span className='gs-gallery' style={{overflow:"hidden"}}><img src={safe} alt="gallery" /></span>
+                    <span className='gs-gallery' style={{overflow:"hidden"}} id='five'><img src={safe} alt="gallery" /></span>
                 </div>
             </article>
         </div>

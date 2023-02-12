@@ -41,34 +41,25 @@
 .gs-Servicespix {
     display: flex;
     flex-wrap: wrap;
-    margin: 8% 0 0 0;
-    width: 100%;
+    margin: 8% auto 0 auto;
+    width: 80%;
 }
 .gs-gallery img{
     width: 100%;
     object-fit: cover;
     vertical-align: middle;
-    
 }
-.gs-Servicesgallery {
-    position: relative;
+.gs-gallery {
+    flex: 15%;
+    max-width: 25%;
+    padding: 0px 5px;
+}
+ .gs-Servicesgallery-item {
+   position: relative;
     width: 100%;
-    /* float: left; */
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-}
- .gs-Servicesgallery-item {
-    top: 0;
-    right: 0px;
-    bottom: 0px;
-    left: 0;
-    flex: 20%;
-    max-width: 100%;
-    float:inline-end;
-    white-space: wrap;
-    overflow: hidden;
-    font-size: 0;
 }
 .gs-pee {
     background: black;
