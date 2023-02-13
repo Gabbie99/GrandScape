@@ -1,5 +1,4 @@
 import React from 'react'
-import './Thanks'
 import Footer from '../footer/Footer'
 import NavBar from '../navBar/NavBar'
 import { MapPin, WhatsappLogo, Phone, Envelope } from 'phosphor-react'
