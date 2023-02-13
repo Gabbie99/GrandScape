@@ -85,7 +85,7 @@ iframe {
     margin-bottom: 100px;
     color: beige;
     transform: translateZ(0);
-    transition: transform .40s ease-out;
+    transition: transform .40s ease-in-out;
 }
 .gs-button:hover {
     cursor: pointer;
