@@ -58,18 +58,23 @@ iframe {
     border: 1px solid rgb(117, 117, 117);
     padding: 15px 40px;
     width: 100%;
+    font-size: 13px;
     margin: 10px 0;
 }
 .gs-input::placeholder{
     opacity: .2;
     font-style: italic;
 }
-#text {
+#text ::placeholder{
     font-style: italic;
+}
+#text {
     opacity: .3;
     width: 100%;
     padding: 15px; 
     outline: none;
+    font-size: 13px;
+    color: black;
     border: 1px solid rgb(117, 117, 117);
 }
 .gs-button {
