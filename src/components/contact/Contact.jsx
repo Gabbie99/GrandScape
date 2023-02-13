@@ -59,7 +59,6 @@ function Contact() {
                         <p>Email*</p><input type="text" name='email' className='gs-input' placeholder='Email Address*' required /><br />
                         <p>Subject*</p><input type="text" name='_subject' className='gs-input' placeholder='Subject*' required /><input type="hidden" name="_subject" value="New Client's Message!"/><br />
                         <p>Message*</p><textarea name="message" type="name" id="text" cols="30" rows="10" placeholder='Message...' required></textarea>
-                       
                         <p>&nbsp;</p>
                         <button className='gs-button' type='submit'>Submit</button>
                     </form>
