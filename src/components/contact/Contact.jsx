@@ -47,13 +47,13 @@ function Contact() {
                   <div className="gs-Contactadress-icon">
                     <Envelope size={25} weight="thin" />
                     <p>  
-                    <a href="mailto:granscapegroup@gmail.com">granscapegroup@gmail.com</a>
+                    <a href="mailto:grandscapegroup@gmail.com">grandscapegroup@gmail.com</a>
                     </p>
                   </div>
                 </div>
                 </div>
                 <div className='gs-Contactform'>
-                    <form action="https://formsubmit.co/khoinom2018@gmail.com" method="POST" >
+                    <form action="https://formsubmit.co/grandscapegroup@gmail.com" method="POST" >
                         <p>Name*</p><input type="text" name='name' className='gs-input' placeholder='Full Name*' required /><br />
                         <p>Email*</p><input type="text" name='email' className='gs-input' placeholder='Email Address*' required /><br />
                         <p>Subject*</p><input type="text" name='_subject' className='gs-input' placeholder='Subject*' required /><input type="hidden" name="_subject" value="New Client's Message!"/><br />
