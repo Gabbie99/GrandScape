@@ -49,18 +49,16 @@
     object-fit: cover;
     vertical-align: middle;
 }
-/* .gs-gallery {
-    flex: 15%;
-    max-width: 25%;
-    padding: 0px 5px;
-} */
  .gs-Servicesgallery {
     display: flex;
-    flex-direction: row-reverse;
+    width: 100%;
+    align-items: flex-end;
  }
  .gs-Servicesgallery-item {
     position: relative;
     width: 100%;
+    margin: 0%;
+    padding: 0%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -69,11 +67,10 @@
     background: black;
     background: rgba(0, 0, 0, 0.356);
     color: beige;
-    width: 45%;
+    width: 40%;
     padding: 25px;
-    /* margin: 0 auto; */
     top: 45%;
-    left: 35%;
+    left: 30%;
     font-size: 28px;
     font-weight: 100;
     text-transform: uppercase;
