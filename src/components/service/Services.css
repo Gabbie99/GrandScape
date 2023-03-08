@@ -14,7 +14,7 @@
     color: beige;
     width: 50%;
     padding: 20px;
-    margin: 15% auto 0 auto;
+    margin: 28% auto 0 auto;
     font-size: x-large;
     z-index: 4;
 }
@@ -65,7 +65,7 @@
 }
 .gs-pee {
     background: black;
-    background: rgba(0, 0, 0, 0.356);
+    background: rgba(0, 0, 0, 0.610);
     color: beige;
     width: 40%;
     padding: 25px;
