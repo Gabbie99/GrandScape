@@ -207,7 +207,7 @@
         margin: auto;
     }
 }
-@media screen and (max-width:450px){
+@media screen and (max-width:380px){
     .gs-Servicesheadwrap {
         width: 80%;
         padding: 25px;
@@ -219,4 +219,16 @@
         width: 90%;
         margin: auto;
     }
+    .gs-Servicesgallery {
+        display: grid;
+        width: 100%;
+        align-items: flex-end;
+     }
+     .gs-pee {
+        width: 45%;
+        padding: 15px;
+        top: 36%;
+        left: 25%;
+        font-size: 16px;      
+    } 
 }
