@@ -78,6 +78,23 @@
     z-index: 4;
     position: absolute;
 }
+@media screen and (max-width:1190px){
+    .gs-pee {
+        background: black;
+        background: rgba(0, 0, 0, 0.610);
+        color: beige;
+        width: 50%;
+        padding: 25px;
+        top: 45%;
+        left: 30%;
+        font-size: 28px;
+        font-weight: 100;
+        text-transform: uppercase;
+        text-align: center;
+        z-index: 4;
+        position: absolute;
+    }
+}
 @media screen and (max-width:950px){
     .gs-Servicestext {
         width: 58%;

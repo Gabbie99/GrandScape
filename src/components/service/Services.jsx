@@ -44,7 +44,7 @@ function Services() {
             <article className='gs-Servicesgallerys'>
                 <div className="gs-Servicesgallery-item">
                     <div className="gs-Servicesgallery-item-inn">
-                        <h2 className='gs-pee'>Construction</h2>
+                        <h2 className='gs-pee'>Building and Construction</h2>
                         <span className='gs-galleryspan'></span>
                     </div>
                     <span className='gs-gallery' style={{overflow:"hidden"}} id='three'><img src={preconstruct} alt="gallery" /></span>
