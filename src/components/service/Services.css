@@ -78,3 +78,19 @@
     z-index: 4;
     position: absolute;
 }
+@media screen and (max-width:950px){
+    .gs-Servicestext {
+        width: 55%;
+        margin: auto;
+    }
+    .gs-Servicesheadwrap {
+        width: 55%;
+        padding: 25px;
+        margin: 20% auto 0 auto;
+        font-size: x-large;
+        z-index: 4;
+    }
+}
+@media screen and (max-width:950px){
+    
+}
