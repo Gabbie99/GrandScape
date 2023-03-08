@@ -194,3 +194,29 @@
         font-size: 16px;      
     } 
 }
+@media screen and (max-width:450px){
+    .gs-Servicesheadwrap {
+        width: 63%;
+        padding: 25px;
+        margin: 35% auto 0 auto;
+        font-size: 12.5px;
+        z-index: 4;
+    }
+    .gs-Servicestext {
+        width: 75%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:450px){
+    .gs-Servicesheadwrap {
+        width: 80%;
+        padding: 25px;
+        margin: 35% auto 0 auto;
+        font-size: 12px;
+        z-index: 4;
+    }
+    .gs-Servicestext {
+        width: 90%;
+        margin: auto;
+    }
+}
