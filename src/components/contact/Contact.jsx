@@ -57,6 +57,7 @@ function Contact() {
                         <p>Name*</p><input type="text" name='name' className='gs-input' placeholder='Full Name*' required /><br />
                         <p>Email*</p><input type="text" name='email' className='gs-input' placeholder='Email Address*' required /><br />
                         <p>Subject*</p><input type="text" name='_subject' className='gs-input' placeholder='Subject*' required /><input type="hidden" name="_subject" value="New Client's Message!"/><br />
+                        <input type="hidden" name="_autoresponse" value="Your message have been received successfully and will be reviewed. Thank you for contacting Grandscape Residence's Limited!"></input>
                         <p>Message*</p><textarea name="message" type="name" id="text" cols="30" rows="10" placeholder='Message...' required></textarea>
                         <p>&nbsp;</p>
                         <button className='gs-button' type='submit'>Submit</button>
