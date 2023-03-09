@@ -17,7 +17,7 @@ function About() {
       <div className="gs-Aboutstory">
         <h1 className="gs-Aboutstory-head">Our Story</h1>
         <p className='gs-Aboutstory-para'>
-          Grandscape Residence's Ltd is a real estate firm stationed to provide real estate solutions to our clients. The company engages in consultation, real estate deveopment, management and interior design services. <br /> In 10+ years of the existence of Grandscape, the company has helped individuals relaize their dreams of home ownership as well as office complexes. Our clientele comprises of private individuals, corporate bodies, corporate institutions and companies. 
+          Grandscape Residence's Ltd is a real estate firm stationed to provide real estate solutions to our clients. The company engages in consultation, real estate development, management and interior design services. <br /> In 10+ years of the existence of Grandscape, the company has helped individuals realize their dreams of home ownership as well as office complexes. Our clientele comprises of private individuals, corporate bodies, corporate institutions and companies. 
         </p>
         <p>&nbsp;</p>
         </div>

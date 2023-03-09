@@ -5,6 +5,7 @@ import Footer from '../footer/Footer'
 import maintain from '../../assets/maintain.jpg'
 import sustain from '../../assets/suspan.jpg'
 import suplly from '../../assets/supllymethod.png'
+import interior from '../../assets/interior.webp'
 import safe from '../../assets/aboutconstruct.jpg'
 import preconstruct from '../../assets/sanschool.jpg'
 
@@ -28,14 +29,30 @@ function Services() {
             <article className='gs-Servicesgallery'>
                 <div className="gs-Servicesgallery-item">
                     <div className="gs-Servicesgallery-item-inn">
-                        <h2 className='gs-pee'>Sustainability</h2>
+                        <h2 className='gs-pee'>Consultancy</h2>
                         <span className='gs-galleryspan'></span>
                     </div>
                     <span className='gs-gallery' style={{overflow:"hidden"}} id='one'><img src={sustain} alt="gallery"  /></span>
                 </div>            
                 <div className="gs-Servicesgallery-item">
                     <div className="gs-Servicesgallery-item-inn">
-                        <h2 className='gs-pee'>Supply Methods</h2>
+                        <h2 className='gs-pee'>Supply and services</h2>
+                        <span className='gs-galleryspan'></span>
+                    </div>
+                    <span className='gs-gallery' style={{overflow:"hidden"}} id='two'><img src={suplly} alt="gallery" /></span>
+                </div>
+            </article>    
+            <article className='gs-Servicesgallery'>
+                <div className="gs-Servicesgallery-item">
+                    <div className="gs-Servicesgallery-item-inn">
+                        <h2 className='gs-pee'>Interior designs</h2>
+                        <span className='gs-galleryspan'></span>
+                    </div>
+                    <span className='gs-gallery' style={{overflow:"hidden"}} id='one'><img src={interior} alt="gallery"  /></span>
+                </div>            
+                <div className="gs-Servicesgallery-item">
+                    <div className="gs-Servicesgallery-item-inn">
+                        <h2 className='gs-pee'>3D Architectural design</h2>
                         <span className='gs-galleryspan'></span>
                     </div>
                     <span className='gs-gallery' style={{overflow:"hidden"}} id='two'><img src={suplly} alt="gallery" /></span>
@@ -44,7 +61,7 @@ function Services() {
             <article className='gs-Servicesgallerys'>
                 <div className="gs-Servicesgallery-item">
                     <div className="gs-Servicesgallery-item-inn">
-                        <h2 className='gs-pee'>Building and Construction</h2>
+                        <h2 className='gs-pee'>Real Estate Development</h2>
                         <span className='gs-galleryspan'></span>
                     </div>
                     <span className='gs-gallery' style={{overflow:"hidden"}} id='three'><img src={preconstruct} alt="gallery" /></span>
@@ -53,14 +70,14 @@ function Services() {
             <article className='gs-Servicesgallery'>
                 <div className="gs-Servicesgallery-item">
                     <div className="gs-Servicesgallery-item-inn">
-                        <h2 className='gs-pee'>Design Maintenance</h2>
+                        <h2 className='gs-pee'>Management</h2>
                         <span className='gs-galleryspan'></span>
                     </div>
                     <span className='gs-gallery' style={{overflow:"hidden"}} id='four'><img src={maintain} alt="gallery" /></span>
                 </div>
                 <div className="gs-Servicesgallery-item">
                     <div className="gs-Servicesgallery-item-inn">
-                        <h2 className='gs-pee'>Safety</h2>
+                        <h2 className='gs-pee'>civil and structural Engineering</h2>
                         <span className='gs-galleryspan'></span>
                     </div>
                     <span className='gs-gallery' style={{overflow:"hidden"}} id='five'><img src={safe} alt="gallery" /></span>
