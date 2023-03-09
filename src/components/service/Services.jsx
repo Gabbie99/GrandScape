@@ -6,6 +6,7 @@ import maintain from '../../assets/maintain.jpg'
 import sustain from '../../assets/suspan.jpg'
 import suplly from '../../assets/supllymethod.png'
 import interior from '../../assets/interior.webp'
+import threeD from '../../assets/threeD.jpg'
 import safe from '../../assets/aboutconstruct.jpg'
 import preconstruct from '../../assets/sanschool.jpg'
 
@@ -36,10 +37,10 @@ function Services() {
                 </div>            
                 <div className="gs-Servicesgallery-item">
                     <div className="gs-Servicesgallery-item-inn">
-                        <h2 className='gs-pee'>Supply and services</h2>
+                        <h2 className='gs-pee'>3D Architectural design</h2>
                         <span className='gs-galleryspan'></span>
                     </div>
-                    <span className='gs-gallery' style={{overflow:"hidden"}} id='two'><img src={suplly} alt="gallery" /></span>
+                    <span className='gs-gallery' style={{overflow:"hidden"}} id='two'><img src={threeD} alt="gallery" /></span>
                 </div>
             </article>    
             <article className='gs-Servicesgallery'>
@@ -52,7 +53,7 @@ function Services() {
                 </div>            
                 <div className="gs-Servicesgallery-item">
                     <div className="gs-Servicesgallery-item-inn">
-                        <h2 className='gs-pee'>3D Architectural design</h2>
+                        <h2 className='gs-pee'>Supply and services</h2>
                         <span className='gs-galleryspan'></span>
                     </div>
                     <span className='gs-gallery' style={{overflow:"hidden"}} id='two'><img src={suplly} alt="gallery" /></span>
