@@ -70,3 +70,32 @@
         z-index: 4;
     }
 }
+@media screen and (max-width:650px){
+    .gs-Projecthead {
+        width: 67%;
+        padding: 20px;
+        margin: 35% auto 0 auto;
+        font-size: large;
+        z-index: 4;
+    } 
+    .gs-Projecttext {
+        width: 60%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:500px){
+    .gs-Projectwrap {
+        height: 100vh;
+    }
+    .gs-Projecthead {
+        width: 70%;
+        padding: 20px;
+        margin: 35% auto 0 auto;
+        font-size: 16px;
+        z-index: 4;
+    } 
+    .gs-Projecttext {
+        width: 65%;
+        margin: auto;
+    }
+}
