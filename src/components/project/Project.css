@@ -99,3 +99,29 @@
         margin: auto;
     }
 }
+@media screen and (max-width:450px){
+    .gs-Projecthead {
+        width: 70%;
+        padding: 20px;
+        margin: 45% auto 0 auto;
+        font-size: 16px;
+        z-index: 4;
+    } 
+    .gs-Projecttext {
+        width: 85%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:364px){
+    .gs-Projecthead {
+        width: 80%;
+        padding: 20px;
+        margin: 50% auto 0 auto;
+        font-size: 15px;
+        z-index: 4;
+    } 
+    .gs-Projecttext {
+        width: 88%;
+        margin: auto;
+    }
+}

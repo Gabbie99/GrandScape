@@ -27,7 +27,7 @@ function About() {
           </div>
           <div className="gs-Abouttell">
             <p className="gs-Aboutstory-para">
-            With over a decade of well grounded and sound experience, or focus is centralized on building unrivalled properties in Nigeria as a whole. <br />A company driven by passion and guided by ethics and morality, Granscape is commited to set and keep to high standards that have preceeded past projects. The company is presently obtaining high end projects to add to our grand portfolio.
+            With over a decade of well grounded and sound experience, our focus is centralized on building unrivalled properties in Nigeria as a whole. <br />A company driven by passion and guided by ethics and morality, Granscape is commited to set and keep to high standards that have preceeded past projects. The company is presently obtaining high end projects to add to our grand portfolio.
             </p>
             <p>&nbsp;</p>
           </div>
