@@ -20,7 +20,7 @@ function Project() {
         <div className="gs-Projecttext">
             <h1 className='gs-Projecttext-head'>Projects</h1>
             <p>
-            Presenting projects that satisfy and exceed the owners expectations is a process that begins at the conceptual stage with a collaborative and hardworking team from design through construction. This  dedicated team approach puts the focus of all team members specifically towards the culmination of the completed project. Check out our projects below.
+            Combining client's satisfaction and construction ethics is our forte. We are delighted with delivering top notch services and giving clients a realizatin to their real estate reams; for every dream is achievable. <br /> Check out our Projects below &#128204;
             </p>
         </div>
         <div className="gs-Projectgallerywrap">

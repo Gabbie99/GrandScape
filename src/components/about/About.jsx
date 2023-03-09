@@ -17,7 +17,7 @@ function About() {
       <div className="gs-Aboutstory">
         <h1 className="gs-Aboutstory-head">Our Story</h1>
         <p className='gs-Aboutstory-para'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic officiis atque iste doloremque, velit obcaecati. Doloribus ullam quibusdam ad voluptatem facilis autem, voluptatum eaque cum qui reprehenderit consequatur, earum molestias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto voluptatem ab aut similique doloribus doloremque dolores fugit? Laboriosam, facilis mollitia quod, velit officiis ex aliquid asperiores aspernatur libero fuga labore.
+          Grandscape Residence's Ltd is a real estate firm stationed to provide real estate solutions to our clients. The company engages in consultation, real estate deveopment, management and interior desin services. <br /> In 10+ years of the existence of Grandscape, the company has helped individuals relaize their dreams of home ownership as well as office complexes. Our clientele comprises of private individuals, corporate bodies, corporate institutions and companies. With over a dcade of well grounded and sound experience, or focus is centralized on building unrivalled properties in Nigeria as a whole. 
         </p>
         <p>&nbsp;</p>
         </div>
