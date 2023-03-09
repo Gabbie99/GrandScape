@@ -20,7 +20,7 @@ function Project() {
         <div className="gs-Projecttext">
             <h1 className='gs-Projecttext-head'>Projects</h1>
             <p>
-            Combining client's satisfaction and construction ethics is our forte. We are delighted with delivering top notch services and giving clients a realizatin to their real estate reams; for every dream is achievable. <br /> Check out our Projects below &#128204;
+            Combining client's satisfaction and construction ethics is our forte. We are delighted with delivering top notch services and giving clients a realization to their real estate dreams; for every dream is achievable. <br /> Check out our Projects below &#128204;
             </p>
         </div>
         <div className="gs-Projectgallerywrap">

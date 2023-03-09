@@ -26,7 +26,7 @@ function ServicePage() {
                 <div className="grand-Servicecards">
                     <img src={build} alt="building" />
                     <p>
-                        Building Construction
+                        Real Estate Development
                     </p>
                 </div>
                 <div className="grand-Servicecards">
@@ -38,7 +38,7 @@ function ServicePage() {
                 <div className="grand-Servicecards">
                     <img src={maintain} alt="maintainance" />
                     <p>
-                     Maintenance
+                     Management
                     </p>
                 </div>
                 <div className="grand-Servicecards">
@@ -60,7 +60,7 @@ function ServicePage() {
         <article>
             <div>
                 <p className='grand-Servicepara'>
-                While our clients' satisfaction is our primary metric for excellence, we have also been recognized with awards over the years for safety, business practices, and design excellence. We are proud to be at the forefront of profound building practices. We understand that projects represent not only buildings, but the plans for the future of our clients
+                Combining client's satisfaction and construction ethics is our forte. We are delighted with delivering top notch services and giving clients a realization to their real estate dreams; for every dream is achievable. We understand that projects represent not only buildings, but the plans for the future of our clients
                 </p>
                 <p className='grand-Servicesee'>
                 <Link to='/projects'>See Our Latest Projects</Link>
