@@ -45,3 +45,28 @@
     width: 100%;
     object-fit: cover;
 }
+@media screen and (max-width:1024px) {
+    .gs-Projectwrap {
+        height: 102vh;
+    }
+    .gs-Projecthead {
+        width: 50%;
+        padding: 20px;
+        margin: 23% auto 0 auto;
+        font-size: x-large;
+        z-index: 4;
+    }
+    .gs-Projecttext {
+        width: 50%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:800px){
+    .gs-Projecthead {
+        width: 63%;
+        padding: 20px;
+        margin: 26% auto 0 auto;
+        font-size: x-large;
+        z-index: 4;
+    }
+}

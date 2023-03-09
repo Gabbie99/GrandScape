@@ -14,7 +14,7 @@
     color: beige;
     width: 50%;
     padding: 20px;
-    margin: 28% auto 0 auto;
+    margin: 18% auto 0 auto;
     font-size: x-large;
     z-index: 4;
 }
@@ -229,6 +229,6 @@
         padding: 15px;
         top: 36%;
         left: 25%;
-        font-size: 16px;      
+        font-size: 14px;      
     } 
 }
