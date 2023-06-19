@@ -10,7 +10,7 @@ import Project from './components/project/Project';
 function App() {
   return (
 
-    <div className="App">
+    <div className="App"> 
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<GeneralHomePage/>}/>

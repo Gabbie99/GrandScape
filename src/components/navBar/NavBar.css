@@ -1,3 +1,7 @@
+.grand-Container {
+    background-color: black;
+    background: rgba(0, 0, 0, .4);
+}
 .grand-NavContainer {
     display: flex;
     justify-content: space-between;
@@ -5,7 +9,11 @@
     margin: auto;
     align-items: center;
     color: beige;
-    padding-top: 30px;
+    /* padding-top: 23px; */
+}
+.h4 {
+    padding: 0;
+    font-size: small;
 }
 .grand-ul {
     display: flex;
@@ -60,7 +68,7 @@
     }
     .grand-Navhead {
         font-weight: 400;
-        font-size: 25px;
+        font-size: 50px;
     }
 }
 @media screen and (max-width:450px) {
