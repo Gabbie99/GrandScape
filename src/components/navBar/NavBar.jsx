@@ -10,7 +10,7 @@ function NavBar() {
       <div className="grand-NavContainer">
         <div className="grand-Logo">
           <img src={Grandlogo} alt="grand-logo" width={60} />
-          <h4>Grandscape</h4>Residences
+          <h4>Grandscape</h4><span>Residences Ltd</span>
         </div>
           <div className="grand-Linklist">
             <ul className='grand-ul'>

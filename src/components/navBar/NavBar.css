@@ -11,6 +11,9 @@
     color: beige;
     /* padding-top: 23px; */
 }
+.grand-Logo span{
+    font-size: small;
+}
 .h4 {
     padding: 0;
     font-size: small;
