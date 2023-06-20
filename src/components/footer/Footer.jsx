@@ -16,7 +16,7 @@ function Footer() {
             <a href="www.facebook.com"><FacebookLogo size={25} weight="regular" /></a>
           </div>
           <div className='grand-icon'>
-            <a href="www.instagram.com"><InstagramLogo size={25} weight="regular" /></a>
+            <a href="https://www.instagram.com/grandscape_ltd/?hl=en"><InstagramLogo size={25} weight="regular" /></a>
           </div>
           <div className='grand-icon'>
             <a href="www.twitter.com"><TwitterLogo size={25} weight="regular" /></a>
