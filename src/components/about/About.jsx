@@ -44,30 +44,6 @@ function About() {
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quae, est ut obcaecati illo quis a explicabo sed voluptate, culpa delectus sequi quod iusto adipisci praesentium aut? Distinctio, minus amet. 
               </p>
             </div>
-            <div className="gs-Aboutleadpic">
-              <img src={man} alt="manpix" />
-              <h2>Omaki Mustapha</h2>
-              <p><i>Engineer</i></p>
-              <p className="gs-Aboutstory-paras">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quae, est ut obcaecati illo quis a explicabo sed voluptate, culpa delectus sequi quod iusto adipisci praesentium aut? Distinctio, minus amet. 
-              </p>
-            </div>
-            <div className="gs-Aboutleadpic">
-              <img src={man} alt="manpix" />
-              <h2>Omaki Mustapha</h2>
-              <p><i>Engineer</i></p>
-              <p className="gs-Aboutstory-paras">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quae, est ut obcaecati illo quis a explicabo sed voluptate, culpa delectus sequi quod iusto adipisci praesentium aut? Distinctio, minus amet. 
-              </p>
-            </div>
-            <div className="gs-Aboutleadpic">
-              <img src={man} alt="manpix" />
-              <h2>Omaki Mustapha</h2>
-              <p><i>Engineer</i></p>
-              <p className="gs-Aboutstory-paras">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quae, est ut obcaecati illo quis a explicabo sed voluptate, culpa delectus sequi quod iusto adipisci praesentium aut? Distinctio, minus amet. 
-              </p>
-            </div>
           </div> 
       </div>
       <Footer/>   
