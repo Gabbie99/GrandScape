@@ -41,7 +41,11 @@ function About() {
                 <h2>Omaki Mustapha</h2>
               <p><i>Founder/CEO</i></p>
               <p className="gs-Aboutstory-paras">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quae, est ut obcaecati illo quis a explicabo sed voluptate, culpa delectus sequi quod iusto adipisci praesentium aut? Distinctio, minus amet. 
+                Bldr. Mustapha Abdullahi Omaki is a visionary leader and seasoned CEO in the building and construction industry, known for blending innovation with integrity. With over 10 years of hands-on experience, he has transformed Grandscape Residence's Limited into a trusted name, delivering high-impact projects that stand as a testament to quality, sustainability, and craftsmanship.
+
+What sets Bldr. Mustapha Abdullahi Omaki apart is not just a deep understanding of construction, but a passion for building teams, communities, and legacies. Under his leadership, the company has not only grown in scale but in purpose, championing ethical practices, client-focused solutions, and a culture of excellence across every level.
+
+Whether navigating complex developments or mentoring the next generation of industry talent, Bldr. Mustapha Abdullahi Omaki leads with purpose, precision, and a commitment to raising the standard of what’s possible in the built environment. 
               </p>
             </div>
           </div> 
