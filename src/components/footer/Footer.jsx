@@ -28,7 +28,7 @@ function Footer() {
           <p><Link to='/privacy-policy'>PRIVACY POLICY</Link></p>
         </div>
         <div className="grand-footercopy">
-            <p>&copy; 2023 Grandcsape Residence's Limited. All Rights Reserved</p>
+            <p>&copy; 2025 Grandcsape Residence's Limited. All Rights Reserved</p>
            
         </div>
             <a href="#G" id='arr'>
